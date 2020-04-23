@@ -1,50 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { compose, withProps } from 'recompose';
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker
-} from 'react-google-maps';
+import { string, bool, node, number } from 'prop-types';
 
-const apiKey = '';
+import GoogleMap from './GoogleMap';
 
-const RawMap = compose(
-  withProps({
-    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`,
-    loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
-    mapElement: <div style={{ height: `100%` }} />
-  }),
-  withScriptjs,
-  withGoogleMap
-)(
-  ({
-    isMarkerShown,
-    onMarkerClick,
-    latitude = 37.9779404,
-    longitude = -1.2358745
-  }) => (
-    <GoogleMap
-      defaultZoom={8}
-      defaultCenter={{ lat: latitude, lng: longitude }}
-    >
-      {isMarkerShown && (
-        <Marker
-          position={{ lat: latitude, lng: longitude }}
-          onClick={onMarkerClick}
-        />
-      )}
-    </GoogleMap>
-  )
-);
-
-const Map = () => {
+const Map = ({
+  apiKey,
+  withoutMarker,
+  loadingElement,
+  containerElement,
+  mapElement,
+  latitude,
+  longitude
+}) => {
   const [isMarkerShown, setIsMarkerShown] = useState(false);
 
   const delayedShowMarker = () => {
     setTimeout(() => {
-      setIsMarkerShown(true);
+      if (!withoutMarker) setIsMarkerShown(true);
     }, 3000);
   };
 
@@ -58,8 +30,37 @@ const Map = () => {
   }, []);
 
   return (
-    <RawMap isMarkerShown={isMarkerShown} onMarkerClick={handleMarkerClick} />
+    <GoogleMap
+      googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`}
+      loadingElement={loadingElement}
+      containerElement={containerElement}
+      mapElement={mapElement}
+      marker={isMarkerShown}
+      onMarkerClick={handleMarkerClick}
+      latitude={latitude}
+      longitude={longitude}
+    />
   );
+};
+
+Map.propTypes = {
+  apiKey: string,
+  withoutMarker: bool,
+  loadingElement: node,
+  containerElement: node,
+  mapElement: node,
+  latitude: number,
+  longitude: number
+};
+
+Map.defaultProps = {
+  apiKey: '',
+  withoutMarker: false,
+  loadingElement: <div style={{ height: `100%` }} />,
+  containerElement: <div style={{ height: `400px` }} />,
+  mapElement: <div style={{ height: `100%` }} />,
+  latitude: 37.9779404,
+  longitude: -1.2358745
 };
 
 export default Map;
