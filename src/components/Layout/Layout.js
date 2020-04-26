@@ -1,21 +1,7 @@
-import React, { useEffect } from 'react';
-import WOW from 'wowjs';
+import styled from 'styled-components';
 
-import Header from '../Header';
-import Footer from '../Footer';
+import LayoutBase from './LayoutBase';
 
-const Layout = ({ children }) => {
-  useEffect(() => {
-    new WOW.WOW().init();
-  }, []);
-
-  return (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
-  );
-};
+const Layout = styled(LayoutBase)``;
 
 export default Layout;

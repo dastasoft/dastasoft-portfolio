@@ -1,17 +1,10 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
-import { string } from 'prop-types';
+import { string, array } from 'prop-types';
 
 import Icon from '../Icons';
 
-const SkillsBase = ({ className }) => {
-  const skills = [
-    { name: 'html', caption: 'HTML5' },
-    { name: 'css', caption: 'CSS3 / Flexbox / CSS Grid' },
-    { name: 'javascript', caption: 'JavaScript / ES2020' },
-    { name: 'react', caption: 'ReactJS / React Native / Hooks' }
-  ];
-
+const SkillsBase = ({ className, skills }) => {
   return (
     <section className={className}>
       <h1>Skills</h1>
@@ -25,7 +18,12 @@ const SkillsBase = ({ className }) => {
 };
 
 SkillsBase.propTypes = {
-  className: string.isRequired
+  className: string.isRequired,
+  skills: array
+};
+
+SkillsBase.defaultProps = {
+  skills: []
 };
 
 export default SkillsBase;

@@ -1,0 +1,31 @@
+{
+  "bio": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend commodo arcu vitae porttitor. Maecenas lectus leo, mollis quis nulla vel, molestie lobortis nunc. Aliquam quis leo tellus."
+  },
+  "skills": [
+    { "name": "html", "caption": "HTML5" },
+    { "name": "css", "caption": "CSS3 / Flexbox / CSS Grid" },
+    { "name": "javascript", "caption": "JavaScript / ES2020" },
+    { "name": "react", "caption": "ReactJS / React Native / Hooks" }
+  ],
+  "highlightProject": {
+    "title": "Covid Radar",
+    "mobileImg": "",
+    "description": "A simple predictive model of COVID19",
+    "techList": ["react", "gatsby", "firebase", "netlify", "npm"]
+  },
+  "projects": [
+    {
+      "title": "React Boilerplate Parcel",
+      "mobileImg": "",
+      "description": "A React boilerplate made with Parcel",
+      "techList": ["react", "parcel", "yarn", "npm"]
+    },
+    {
+      "title": "Congress Crush",
+      "mobileImg": "",
+      "description": "Match 3 game made with Godot",
+      "techList": ["godot", "python", "android"]
+    }
+  ]
+}
