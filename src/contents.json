@@ -8,12 +8,36 @@
   "bio": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend commodo arcu vitae porttitor. Maecenas lectus leo, mollis quis nulla vel, molestie lobortis nunc. Aliquam quis leo tellus."
   },
-  "skills": [
-    { "name": "html", "caption": "HTML5" },
-    { "name": "css", "caption": "CSS3 / Flexbox / CSS Grid" },
-    { "name": "javascript", "caption": "JavaScript / ES2020" },
-    { "name": "react", "caption": "ReactJS / React Native / Hooks" }
-  ],
+  "skills": {
+    "currentStack": [
+      { "name": "react", "caption": "React / Hooks / Suspense" },
+      { "name": "firebase", "caption": "Firestore / Cloud Functions" },
+      { "name": "nodejs", "caption": "NodeJS / Express" }
+    ],
+    "other": [
+      { "name": "html", "caption": "HTML5" },
+      { "name": "css", "caption": "CSS3 / Flexbox / Grid" },
+      { "name": "javascript", "caption": "JavaScript / ES6+" },
+      { "name": "redux", "caption": "Redux" },
+      { "name": "java", "caption": "Java" }
+    ],
+    "tools": [
+      { "name": "git", "caption": "Git" },
+      { "name": "npm", "caption": "NPM" },
+      { "name": "yarn", "caption": "Yarn" },
+      { "name": "storybook", "caption": "Storybook" },
+      { "name": "webpack", "caption": "Webpack" },
+      { "name": "netlify", "caption": "Netlify" },
+      { "name": "heroku", "caption": "Heroku" }
+    ],
+    "comingSoon": [
+      { "name": "graphql", "caption": "GraphQL" },
+      { "name": "ionic", "caption": "Ionic" },
+      { "name": "tailwindcss", "caption": "TailWindCSS" },
+      { "name": "typescript", "caption": "TypeScript" },
+      { "name": "gatsby", "caption": "Gatsby" }
+    ]
+  },
   "highlightProject": {
     "title": "Covid Radar",
     "description": "A simple predictive model of COVID19",

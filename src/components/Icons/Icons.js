@@ -10,6 +10,12 @@ const Icons = styled(IconsBase)`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .caption {
+    margin-top: 0.5em;
+    font-size: 0.6rem;
+    text-align: center;
+  }
 `;
 
 IconsBase.propTypes = {

@@ -30,7 +30,7 @@ const IntroductionBase = ({
         </span>
         <p>{text}</p>
         <p>
-          Living on
+          Living in
           <Typist
             startDelay={3500}
             avgTypingDelay={100}

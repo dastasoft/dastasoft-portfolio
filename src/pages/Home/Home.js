@@ -27,7 +27,7 @@ const Home = () => {
         {...introduction}
         socialList={social}
       />
-      <Skills className="wow fadeIn" skills={skills} />
+      <Skills {...skills} />
       {/* <HighlightProject className="wow fadeIn" {...highlightProject} />
       {projects.map(project => (
         <ProjectCard className="wow fadeIn" key={project.title} {...project} />
