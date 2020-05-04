@@ -1,3 +1,11 @@
+:root {
+  --main: #142850;
+  --sub: #27496d;
+  --highligh: #0c7b93;
+  --important: #00a8cc;
+  --contrast: #d1ccc0;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -12,5 +20,12 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Anonymous Pro, monospace;
+  background-color: var(--main);
+  color: var(--contrast);
+}
+
+section {
+  height: 100vh;
+  padding: 1rem;
 }

@@ -8,8 +8,8 @@ import {
 import { number, bool, func } from 'prop-types';
 
 const GoogleMap = withScriptjs(
-  withGoogleMap(({ marker, onMarkerClick, latitude, longitude }) => (
-    <GM defaultZoom={8} defaultCenter={{ lat: latitude, lng: longitude }}>
+  withGoogleMap(({ marker, onMarkerClick, latitude, longitude, zoom }) => (
+    <GM defaultZoom={zoom} defaultCenter={{ lat: latitude, lng: longitude }}>
       {marker && (
         <Marker
           position={{ lat: latitude, lng: longitude }}
@@ -24,7 +24,12 @@ GoogleMap.propTypes = {
   marker: bool.isRequired,
   onMarkerClick: func.isRequired,
   latitude: number.isRequired,
-  longitude: number.isRequired
+  longitude: number.isRequired,
+  zoom: number
+};
+
+GoogleMap.defaultProps = {
+  zoom: 8
 };
 
 export default GoogleMap;

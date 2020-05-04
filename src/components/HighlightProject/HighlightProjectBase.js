@@ -1,20 +1,15 @@
 import React from 'react';
-import { string, array, node } from 'prop-types';
+import { string, array } from 'prop-types';
 
 import Icon from '../Icons';
+import HighlightPreview from '../../assets/images/highlight_preview.png';
 
-const HighlightProjectBase = ({
-  className,
-  title,
-  mobileImg,
-  description,
-  techList
-}) => {
+const HighlightProjectBase = ({ className, title, description, techList }) => {
   return (
     <section className={className}>
       <h1>{title}</h1>
       <figure>
-        <img src={mobileImg} alt={`${title} mobile preview`} />
+        <img src={HighlightPreview} alt={`${title} mobile preview`} />
       </figure>
       <span>{description}</span>
       <span>Made with</span>
@@ -34,14 +29,12 @@ const HighlightProjectBase = ({
 HighlightProjectBase.propTypes = {
   className: string.isRequired,
   title: string,
-  mobileImg: node,
   description: string,
   techList: array
 };
 
 HighlightProjectBase.defaultProps = {
   title: '',
-  mobileImg: null,
   description: '',
   techList: []
 };

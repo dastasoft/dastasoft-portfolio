@@ -10,7 +10,8 @@ const Map = ({
   containerElement,
   mapElement,
   latitude,
-  longitude
+  longitude,
+  zoom
 }) => {
   const [isMarkerShown, setIsMarkerShown] = useState(false);
 
@@ -39,6 +40,7 @@ const Map = ({
       onMarkerClick={handleMarkerClick}
       latitude={latitude}
       longitude={longitude}
+      zoom={zoom}
     />
   );
 };
@@ -50,7 +52,8 @@ Map.propTypes = {
   containerElement: node,
   mapElement: node,
   latitude: number,
-  longitude: number
+  longitude: number,
+  zoom: number
 };
 
 Map.defaultProps = {
@@ -60,7 +63,8 @@ Map.defaultProps = {
   containerElement: <div style={{ height: `400px` }} />,
   mapElement: <div style={{ height: `100%` }} />,
   latitude: 37.9779404,
-  longitude: -1.2358745
+  longitude: -1.2358745,
+  zoom: 8
 };
 
 export default Map;

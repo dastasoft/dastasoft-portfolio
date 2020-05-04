@@ -89,7 +89,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "dastag.ui-components/map@0.0.2": {
+    "dastag.ui-components/map@0.0.4": {
         "files": [
             {
                 "relativePath": "src/components/Map/GoogleMap/GoogleMap.js",
