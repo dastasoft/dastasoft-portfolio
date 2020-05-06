@@ -8,38 +8,36 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
   return (
     <section className={className}>
       <h1>Skills</h1>
-      <div className="skills">
-        <div className="current-stack">
-          <h3>Current Stack</h3>
-          <div className="flex">
-            {currentStack.map(skill => (
-              <Icon key={skill} {...skill} width="25vw" />
-            ))}
-          </div>
+      <div>
+        <h4>Current Stack</h4>
+        <div className="flex current-stack">
+          {currentStack.map(skill => (
+            <Icon key={skill} {...skill} width="20vw" />
+          ))}
         </div>
-        <div className="other">
-          <h3>Other</h3>
-          <div className="flex">
-            {other.map(skill => (
-              <Icon key={skill} {...skill} width="15vw" />
-            ))}
-          </div>
+      </div>
+      <div>
+        <h4>Other</h4>
+        <div className="flex">
+          {other.map(skill => (
+            <Icon key={skill} {...skill} width="12vw" className="skill" />
+          ))}
         </div>
-        <div className="tools">
-          <h3>Tools</h3>
-          <div className="flex">
-            {tools.map(skill => (
-              <Icon key={skill} {...skill} width="15vw" />
-            ))}
-          </div>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <div className="flex">
+          {tools.map(skill => (
+            <Icon key={skill} {...skill} width="12vw" className="skill" />
+          ))}
         </div>
-        <div className="coming-soon">
-          <h3>Coming Soon</h3>
-          <div className="flex">
-            {comingSoon.map(skill => (
-              <Icon key={skill} {...skill} width="15vw" />
-            ))}
-          </div>
+      </div>
+      <div>
+        <h4>Coming Soon</h4>
+        <div className="flex current-stack">
+          {comingSoon.map(skill => (
+            <Icon key={skill} {...skill} width="12vw" className="skill" />
+          ))}
         </div>
       </div>
     </section>

@@ -1,32 +1,30 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import { string } from 'prop-types';
 
-import Spinner from '../Spinner';
-
-const CPPIcon = React.lazy(() => import('./assets/cpp.svg'));
-const CSSIcon = React.lazy(() => import('./assets/css.svg'));
-const FirebaseIcon = React.lazy(() => import('./assets/firebase.svg'));
-const GatsbyIcon = React.lazy(() => import('./assets/gatsby.svg'));
-const GitIcon = React.lazy(() => import('./assets/git.svg'));
-const GraphQLIcon = React.lazy(() => import('./assets/graphql.svg'));
-const HerokuIcon = React.lazy(() => import('./assets/heroku.svg'));
-const HTMLIcon = React.lazy(() => import('./assets/html.svg'));
-const IonicIcon = React.lazy(() => import('./assets/ionic.svg'));
-const JavaIcon = React.lazy(() => import('./assets/java.svg'));
-const JavascriptIcon = React.lazy(() => import('./assets/javascript.svg'));
-const JSONIcon = React.lazy(() => import('./assets/json.svg'));
-const NetlifyIcon = React.lazy(() => import('./assets/netlify.svg'));
-const NodeJsIcon = React.lazy(() => import('./assets/nodejs.svg'));
-const NPMIcon = React.lazy(() => import('./assets/npm.svg'));
-const PythonIcon = React.lazy(() => import('./assets/python.svg'));
-const ReactIcon = React.lazy(() => import('./assets/react.svg'));
-const ReduxIcon = React.lazy(() => import('./assets/redux-action.svg'));
-const StorybookIcon = React.lazy(() => import('./assets/storybook.svg'));
-const TailWindCSSIcon = React.lazy(() => import('./assets/tailwindcss.svg'));
-const TypeScriptIcon = React.lazy(() => import('./assets/typescript.svg'));
-const VSCodeIcon = React.lazy(() => import('./assets/vscode.svg'));
-const WebpackIcon = React.lazy(() => import('./assets/webpack.svg'));
-const YarnIcon = React.lazy(() => import('./assets/yarn.svg'));
+import CPPIcon from './assets/cpp.svg';
+import CSSIcon from './assets/css.svg';
+import FirebaseIcon from './assets/firebase.svg';
+import GatsbyIcon from './assets/gatsby.svg';
+import GitIcon from './assets/git.svg';
+import GodotIcon from './assets/godot.svg';
+import GraphQLIcon from './assets/graphql.svg';
+import HerokuIcon from './assets/heroku.svg';
+import HTMLIcon from './assets/html.svg';
+import IonicIcon from './assets/ionic.svg';
+import JavaIcon from './assets/java.svg';
+import JavascriptIcon from './assets/javascript.svg';
+import NetlifyIcon from './assets/netlify.svg';
+import NodeJsIcon from './assets/nodejs.svg';
+import NPMIcon from './assets/npm.svg';
+import PythonIcon from './assets/python.svg';
+import ReactIcon from './assets/react.svg';
+import ReduxIcon from './assets/redux-action.svg';
+import StorybookIcon from './assets/storybook.svg';
+import TailWindCSSIcon from './assets/tailwindcss.svg';
+import TypeScriptIcon from './assets/typescript.svg';
+import VSCodeIcon from './assets/vscode.svg';
+import WebpackIcon from './assets/webpack.svg';
+import YarnIcon from './assets/yarn.svg';
 
 const IconsBase = ({ className, name, caption }) => {
   const [icon, setIcon] = useState(null);
@@ -49,6 +47,9 @@ const IconsBase = ({ className, name, caption }) => {
         break;
       case 'git':
         element = <GitIcon />;
+        break;
+      case 'godot':
+        element = <GodotIcon />;
         break;
       case 'graphql':
         element = <GraphQLIcon />;
@@ -113,12 +114,10 @@ const IconsBase = ({ className, name, caption }) => {
   }, []);
 
   return (
-    <Suspense fallback={<Spinner />}>
-      <figure className={`${className} wow fadeIn`}>
-        {icon}
-        <figcaption className="caption">{caption}</figcaption>
-      </figure>
-    </Suspense>
+    <figure className={`${className} wow fadeIn`}>
+      {icon}
+      <figcaption className="caption">{caption}</figcaption>
+    </figure>
   );
 };
 

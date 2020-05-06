@@ -19,7 +19,9 @@
       { "name": "css", "caption": "CSS3 / Flexbox / Grid" },
       { "name": "javascript", "caption": "JavaScript / ES6+" },
       { "name": "redux", "caption": "Redux" },
-      { "name": "java", "caption": "Java" }
+      { "name": "java", "caption": "Java" },
+      { "name": "cpp", "caption": "C++" },
+      { "name": "godot", "caption": "GDScript" }
     ],
     "tools": [
       { "name": "git", "caption": "Git" },

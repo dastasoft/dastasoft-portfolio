@@ -3,27 +3,28 @@ import styled from 'styled-components';
 import SkillsBase from './SkillsBase';
 
 const Skills = styled(SkillsBase)`
-  .skills {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .flex {
+    margin-top: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   .current-stack {
+    justify-content: space-between;
   }
 
-  .other {
-  }
+  .skill {
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
 
-  .tools {
-  }
-
-  .coming-soon {
+    > *:last-of-type {
+      margin-right: 0;
+    }
   }
 `;
 
