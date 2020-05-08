@@ -12,7 +12,12 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
         <h4>Current Stack</h4>
         <div className="flex current-stack">
           {currentStack.map(skill => (
-            <Icon key={skill} {...skill} width="20vw" />
+            <Icon
+              key={skill}
+              {...skill}
+              width="20vw"
+              className="wow animate__animated animate__zoomIn"
+            />
           ))}
         </div>
       </div>
@@ -20,7 +25,12 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
         <h4>Other</h4>
         <div className="flex">
           {other.map(skill => (
-            <Icon key={skill} {...skill} width="12vw" className="skill" />
+            <Icon
+              key={skill}
+              {...skill}
+              width="12vw"
+              className="skill wow animate__animated animate__zoomIn"
+            />
           ))}
         </div>
       </div>
@@ -28,7 +38,12 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
         <h4>Tools</h4>
         <div className="flex">
           {tools.map(skill => (
-            <Icon key={skill} {...skill} width="12vw" className="skill" />
+            <Icon
+              key={skill}
+              {...skill}
+              width="12vw"
+              className="skill wow animate__animated animate__zoomIn"
+            />
           ))}
         </div>
       </div>
@@ -36,7 +51,12 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
         <h4>Coming Soon</h4>
         <div className="flex current-stack">
           {comingSoon.map(skill => (
-            <Icon key={skill} {...skill} width="12vw" className="skill" />
+            <Icon
+              key={skill}
+              {...skill}
+              width="12vw"
+              className="skill wow animate__animated animate__zoomIn"
+            />
           ))}
         </div>
       </div>

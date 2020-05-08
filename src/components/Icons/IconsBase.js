@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { string } from 'prop-types';
+import { string, arrayOf } from 'prop-types';
 
 import CPPIcon from './assets/cpp.svg';
 import CSSIcon from './assets/css.svg';
@@ -26,7 +26,7 @@ import VSCodeIcon from './assets/vscode.svg';
 import WebpackIcon from './assets/webpack.svg';
 import YarnIcon from './assets/yarn.svg';
 
-const IconsBase = ({ className, name, caption }) => {
+const IconsBase = ({ className, name, captions }) => {
   const [icon, setIcon] = useState(null);
 
   useEffect(() => {
@@ -114,9 +114,11 @@ const IconsBase = ({ className, name, caption }) => {
   }, []);
 
   return (
-    <figure className={`${className} wow fadeIn`}>
+    <figure className={className}>
       {icon}
-      <figcaption className="caption">{caption}</figcaption>
+      <figcaption className="caption">
+        {captions && captions.map(caption => <p key={caption}>{caption}</p>)}
+      </figcaption>
     </figure>
   );
 };
@@ -124,12 +126,12 @@ const IconsBase = ({ className, name, caption }) => {
 IconsBase.propTypes = {
   className: string.isRequired,
   name: string,
-  caption: string
+  captions: arrayOf(string)
 };
 
 IconsBase.defaultProps = {
   name: '',
-  captions: ''
+  captions: []
 };
 
 export default IconsBase;

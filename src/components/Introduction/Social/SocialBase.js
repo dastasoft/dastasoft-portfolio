@@ -13,7 +13,7 @@ const SocialBase = ({ className, socialList }) => {
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon
-            className="wow bounceIn"
+            className="wow animate__bounceIn"
             icon={['fab', social.name]}
             size="2x"
           />

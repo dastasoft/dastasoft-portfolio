@@ -23,14 +23,17 @@ const Home = () => {
   return (
     <Layout>
       <Introduction
-        className="wow fadeIn"
         {...introduction}
         socialList={social}
+        className="wow animate__animated animate__fadeIn"
       />
-      <Skills {...skills} />
-      {/* <HighlightProject className="wow fadeIn" {...highlightProject} />
-      {projects.map(project => (
-        <ProjectCard className="wow fadeIn" key={project.title} {...project} />
+      <Skills {...skills} className="wow animate__animated animate__fadeIn" />
+      <HighlightProject
+        className="wow animate__animated animate__fadeIn"
+        {...highlightProject}
+      />
+      {/* {projects.map(project => (
+        <ProjectCard className="wow fanimate__adeIn" key={project.title} {...project} />
       ))} */}
     </Layout>
   );

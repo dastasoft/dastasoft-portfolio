@@ -10,40 +10,42 @@
   },
   "skills": {
     "currentStack": [
-      { "name": "react", "caption": "React / Hooks / Suspense" },
-      { "name": "firebase", "caption": "Firestore / Cloud Functions" },
-      { "name": "nodejs", "caption": "NodeJS / Express" }
+      { "name": "react", "captions": ["React", "Hooks", "Suspense"] },
+      { "name": "firebase", "captions": ["Firestore", "Cloud Functions"] },
+      { "name": "nodejs", "captions": ["NodeJS", "Express"] }
     ],
     "other": [
-      { "name": "html", "caption": "HTML5" },
-      { "name": "css", "caption": "CSS3 / Flexbox / Grid" },
-      { "name": "javascript", "caption": "JavaScript / ES6+" },
-      { "name": "redux", "caption": "Redux" },
-      { "name": "java", "caption": "Java" },
-      { "name": "cpp", "caption": "C++" },
-      { "name": "godot", "caption": "GDScript" }
+      { "name": "html", "captions": ["HTML5"] },
+      { "name": "css", "captions": ["CSS3", "Flexbox", "Grid"] },
+      { "name": "javascript", "captions": ["JavaScript", "ES6+"] },
+      { "name": "redux", "captions": ["Redux"] },
+      { "name": "java", "captions": ["Java"] },
+      { "name": "cpp", "captions": ["C++"] },
+      { "name": "godot", "captions": ["GDScript"] }
     ],
     "tools": [
-      { "name": "git", "caption": "Git" },
-      { "name": "npm", "caption": "NPM" },
-      { "name": "yarn", "caption": "Yarn" },
-      { "name": "storybook", "caption": "Storybook" },
-      { "name": "webpack", "caption": "Webpack" },
-      { "name": "netlify", "caption": "Netlify" },
-      { "name": "heroku", "caption": "Heroku" }
+      { "name": "git", "captions": ["Git"] },
+      { "name": "npm", "captions": ["NPM"] },
+      { "name": "yarn", "captions": ["Yarn"] },
+      { "name": "storybook", "captions": ["Storybook"] },
+      { "name": "webpack", "captions": ["Webpack"] },
+      { "name": "netlify", "captions": ["Netlify"] },
+      { "name": "heroku", "captions": ["Heroku"] }
     ],
     "comingSoon": [
-      { "name": "graphql", "caption": "GraphQL" },
-      { "name": "ionic", "caption": "Ionic" },
-      { "name": "tailwindcss", "caption": "TailWindCSS" },
-      { "name": "typescript", "caption": "TypeScript" },
-      { "name": "gatsby", "caption": "Gatsby" }
+      { "name": "graphql", "captions": ["GraphQL"] },
+      { "name": "ionic", "captions": ["Ionic"] },
+      { "name": "tailwindcss", "captions": ["TailWindCSS"] },
+      { "name": "typescript", "captions": ["TypeScript"] },
+      { "name": "gatsby", "captions": ["Gatsby"] }
     ]
   },
   "highlightProject": {
     "title": "Covid Radar",
-    "description": "A simple predictive model of COVID19",
-    "techList": ["react", "gatsby", "firebase", "netlify", "npm"]
+    "description": "A simple predictive model and tracker for COVID-19 Spain cases.",
+    "techList": ["react", "gatsby", "firebase", "netlify", "npm"],
+    "projectLink": "https://covid-radar.xyz/",
+    "sourceLink": "https://github.com/React-Jedis/covid-radar"
   },
   "projects": [
     {

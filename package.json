@@ -14,10 +14,12 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@svgr/parcel-plugin-svgr": "^5.3.1",
+    "animate.css": "^4.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.3.0",
     "react-dom": "^16.13.0",
     "react-google-maps": "^9.4.5",
+    "react-spring": "^8.0.27",
     "react-typist": "^2.0.5",
     "styled-components": "^5.1.0",
     "wowjs": "^1.1.3"
