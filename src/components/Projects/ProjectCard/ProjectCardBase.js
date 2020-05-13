@@ -1,34 +1,41 @@
 import React from 'react';
 import { string, array, node } from 'prop-types';
 
-import Icon from '../Icons';
+import Icon from '../../Icons';
+import ProjectButtons from '../../ProjectButtons/ProjectButtons';
 
 const ProjectCardBase = ({
   className,
   previewImg,
   title,
   description,
-  techList
+  techList,
+  projectLink,
+  sourceLink
 }) => {
   return (
-    <section className={className}>
-      <figure>
-        <img src={previewImg} alt={`${title} preview`} />
-      </figure>
-      <div>
+    <div className={className}>
+      <div className="preview" />
+      <div className="card">
         <h1>{title}</h1>
         <span>{description}</span>
-        <div>
+        <div className="tech">
           {techList.map(tech => (
-            <Icon key={tech} name={tech} width="100px" />
+            <Icon
+              key={tech}
+              name={tech}
+              width="10vw"
+              className="wow animate__animated animate__zoomIn"
+            />
           ))}
         </div>
+        <ProjectButtons
+          projectLink={projectLink}
+          sourceLink={sourceLink}
+          size="1x"
+        />
       </div>
-      <div>
-        <button type="button">Check it out</button>
-        <button type="button">View source code</button>
-      </div>
-    </section>
+    </div>
   );
 };
 

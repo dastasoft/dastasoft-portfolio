@@ -19,6 +19,9 @@
       { "name": "css", "captions": ["CSS3", "Flexbox", "Grid"] },
       { "name": "javascript", "captions": ["JavaScript", "ES6+"] },
       { "name": "redux", "captions": ["Redux"] },
+      { "name": "styled-components", "captions": ["Styled Components"] },
+      { "name": "react-native", "captions": ["React Native"] },
+      { "name": "gatsby", "captions": ["Gatsby"] },
       { "name": "java", "captions": ["Java"] },
       { "name": "cpp", "captions": ["C++"] },
       { "name": "godot", "captions": ["GDScript"] }
@@ -27,17 +30,20 @@
       { "name": "git", "captions": ["Git"] },
       { "name": "npm", "captions": ["NPM"] },
       { "name": "yarn", "captions": ["Yarn"] },
+      { "name": "electron", "captions": ["Electron"] },
       { "name": "storybook", "captions": ["Storybook"] },
       { "name": "webpack", "captions": ["Webpack"] },
+      { "name": "parcel", "captions": ["Parcel"] },
+      { "name": "github", "captions": ["Github"] },
       { "name": "netlify", "captions": ["Netlify"] },
       { "name": "heroku", "captions": ["Heroku"] }
     ],
     "comingSoon": [
-      { "name": "graphql", "captions": ["GraphQL"] },
-      { "name": "ionic", "captions": ["Ionic"] },
       { "name": "tailwindcss", "captions": ["TailWindCSS"] },
+      { "name": "jest", "captions": ["Jest"] },
       { "name": "typescript", "captions": ["TypeScript"] },
-      { "name": "gatsby", "captions": ["Gatsby"] }
+      { "name": "nextjs", "captions": ["NextJS"] },
+      { "name": "graphql", "captions": ["GraphQL"] }
     ]
   },
   "highlightProject": {
@@ -49,20 +55,34 @@
   },
   "projects": [
     {
+      "id": "reactBoilerplateParcel",
       "title": "React Boilerplate Parcel",
-      "description": "A React boilerplate made with Parcel",
-      "techList": ["react", "parcel", "yarn", "npm"]
+      "description": "A React boilerplate made with Parcel, fast and ready-to-go.",
+      "techList": ["react", "parcel", "yarn"],
+      "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
+      "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
     },
     {
+      "id": "congressCrush",
       "title": "Congress Crush",
-      "description": "Match 3 game made with Godot",
-      "techList": ["godot", "python", "android"]
+      "description": "Match 3 game made with Godot for Android and Web.",
+      "techList": ["godot", "python", "android", "react"],
+      "projectLink": "https://the-four-lords.github.io/congress-crush-app/",
+      "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
+    },
+    {
+      "id": "growMeeting",
+      "title": "Grow Meeting",
+      "description": "Join video chat rooms with fun actions like sounds to interact with your friends, for Web and Mobile.",
+      "techList": ["react", "websockets", "netlify", "yarn", "react-native"],
+      "projectLink": "https://grow-meeting.netlify.app/",
+      "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
     }
   ],
   "social": [
-    { "name": "linkedin", "link": "https://twitter.com/dastasoft" },
-    { "name": "github", "link": "https://twitter.com/dastasoft" },
-    { "name": "dev", "link": "https://twitter.com/dastasoft" },
+    { "name": "linkedin", "link": "https://www.linkedin.com/in/dastag/" },
+    { "name": "github", "link": "https://github.com/dastasoft" },
+    { "name": "dev", "link": "https://dev.to/dastasoft" },
     { "name": "twitter", "link": "https://twitter.com/dastasoft" }
   ]
 }

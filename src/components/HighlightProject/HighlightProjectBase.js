@@ -1,9 +1,9 @@
 import React from 'react';
 import { string, array } from 'prop-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Icon from '../Icons';
 import HighlightPreview from '../../assets/images/highlight_preview.png';
+import ProjectButtons from '../ProjectButtons/ProjectButtons';
 
 const HighlightProjectBase = ({
   className,
@@ -31,19 +31,7 @@ const HighlightProjectBase = ({
           />
         ))}
       </div>
-      <div className="actions">
-        <a href={projectLink} target="_blank" rel="noopener noreferrer">
-          <span>Check it out</span>
-          <FontAwesomeIcon
-            icon={['fas', 'external-link-square-alt']}
-            size="2x"
-          />
-        </a>
-        <a href={sourceLink} target="_blank" rel="noopener noreferrer">
-          <span>Source code</span>
-          <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
-        </a>
-      </div>
+      <ProjectButtons projectLink={projectLink} sourceLink={sourceLink} />
     </section>
   );
 };

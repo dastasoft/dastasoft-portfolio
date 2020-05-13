@@ -15,14 +15,13 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
             <Icon
               key={skill}
               {...skill}
-              width="20vw"
+              width="23vw"
               className="wow animate__animated animate__zoomIn"
             />
           ))}
         </div>
       </div>
       <div>
-        <h4>Other</h4>
         <div className="flex">
           {other.map(skill => (
             <Icon

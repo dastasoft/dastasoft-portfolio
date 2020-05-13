@@ -6,7 +6,7 @@ import Introduction from '../../components/Introduction';
 import Bio from '../../components/Bio';
 import Skills from '../../components/Skills';
 import HighlightProject from '../../components/HighlightProject';
-import ProjectCard from '../../components/ProjectCard';
+import Projects from '../../components/Projects';
 import content from '../../contents.json';
 import './Home.scss';
 
@@ -32,9 +32,7 @@ const Home = () => {
         className="wow animate__animated animate__fadeIn"
         {...highlightProject}
       />
-      {/* {projects.map(project => (
-        <ProjectCard className="wow fanimate__adeIn" key={project.title} {...project} />
-      ))} */}
+      <Projects projects={projects} />
     </Layout>
   );
 };

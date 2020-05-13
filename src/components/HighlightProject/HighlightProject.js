@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HighlightProjectBase from './HighlightProjectBase';
 
 const HighlightProject = styled(HighlightProjectBase)`
+  background-color: var(--highlightProject);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,31 +24,6 @@ const HighlightProject = styled(HighlightProjectBase)`
   .tech {
     display: flex;
     justify-content: space-between;
-  }
-
-  .actions {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    a {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-decoration: none;
-      color: var(--contrast);
-      padding: 0.5rem;
-      background: linear-gradient(
-        to bottom right,
-        var(--important),
-        var(--sub)
-      );
-      border-radius: 0.5rem;
-
-      span {
-        margin-right: 0.5rem;
-      }
-    }
   }
 `;
 
