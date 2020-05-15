@@ -11,6 +11,10 @@ const Icons = styled(IconsBase)`
   flex-direction: column;
   align-items: center;
 
+  img {
+    width: ${({ width }) => width};
+  }
+
   .caption {
     margin-top: 0.5em;
     font-size: 0.6rem;

@@ -74,7 +74,7 @@
       "id": "growMeeting",
       "title": "Grow Meeting",
       "description": "Join video chat rooms with fun actions like sounds to interact with your friends, for Web and Mobile.",
-      "techList": ["react", "websockets", "netlify", "yarn", "react-native"],
+      "techList": ["react", "netlify", "yarn", "react-native"],
       "projectLink": "https://grow-meeting.netlify.app/",
       "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
     }
