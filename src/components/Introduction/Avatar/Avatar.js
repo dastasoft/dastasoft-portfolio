@@ -6,7 +6,7 @@ const Avatar = styled(AvatarBase)`
   img {
     border-radius: 50%;
     vertical-align: middle;
-    width: 50vw;
+    width: 12rem;
     max-width: 200px;
   }
 `;

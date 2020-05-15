@@ -24,7 +24,7 @@ const ProjectCardBase = ({
             <Icon
               key={tech}
               name={tech}
-              width="10vw"
+              width="3rem"
               className="wow animate__animated animate__zoomIn"
             />
           ))}

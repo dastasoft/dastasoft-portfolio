@@ -23,9 +23,19 @@ const Skills = styled(SkillsBase)`
     justify-content: space-around;
   }
 
+  .coming-soon {
+    justify-content: space-around;
+  }
+
   .skill {
     margin-bottom: 1rem;
     margin-right: 1.5rem;
+  }
+
+  @media screen and (min-width: 660px) {
+    .flex {
+      justify-content: space-around;
+    }
   }
 `;
 

@@ -6,24 +6,26 @@ const HighlightProject = styled(HighlightProjectBase)`
   background-color: var(--highlightProject);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 
   .mobile-preview {
-    width: 50vw;
     margin: 0 auto;
 
     img {
-      width: inherit;
+      width: 50vw;
+      max-width: 30vh;
+      height: auto;
     }
   }
 
   .description {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .tech {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 `;
 

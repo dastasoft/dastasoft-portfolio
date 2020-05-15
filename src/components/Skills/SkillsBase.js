@@ -15,7 +15,7 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
             <Icon
               key={skill}
               {...skill}
-              width="23vw"
+              width="4rem"
               className="wow animate__animated animate__zoomIn"
             />
           ))}
@@ -27,7 +27,7 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
             <Icon
               key={skill}
               {...skill}
-              width="12vw"
+              width="2.5rem"
               className="skill wow animate__animated animate__zoomIn"
             />
           ))}
@@ -40,7 +40,7 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
             <Icon
               key={skill}
               {...skill}
-              width="12vw"
+              width="2.5rem"
               className="skill wow animate__animated animate__zoomIn"
             />
           ))}
@@ -48,12 +48,12 @@ const SkillsBase = ({ className, currentStack, other, comingSoon, tools }) => {
       </div>
       <div>
         <h4>Coming Soon</h4>
-        <div className="flex current-stack">
+        <div className="flex coming-soon">
           {comingSoon.map(skill => (
             <Icon
               key={skill}
               {...skill}
-              width="12vw"
+              width="2.5rem"
               className="skill wow animate__animated animate__zoomIn"
             />
           ))}

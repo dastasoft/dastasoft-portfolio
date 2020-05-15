@@ -26,7 +26,7 @@ const HighlightProjectBase = ({
           <Icon
             key={tech}
             name={tech}
-            width="15vw"
+            width="3rem"
             className="wow animate__animated animate__rollIn"
           />
         ))}

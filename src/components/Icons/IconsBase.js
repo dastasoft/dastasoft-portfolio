@@ -34,7 +34,7 @@ import VSCodeIcon from './assets/vscode.svg';
 import WebpackIcon from './assets/webpack.svg';
 import YarnIcon from './assets/yarn.svg';
 
-const IconsBase = ({ className, name, captions, width }) => {
+const IconsBase = ({ className, name, captions }) => {
   const [icon, setIcon] = useState(null);
 
   useEffect(() => {
