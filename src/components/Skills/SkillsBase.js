@@ -13,18 +13,20 @@ const SkillsBase = ({ className, currentStack, other, learning, tools }) => {
         <div className="current-stack">
           {currentStack.map(skill => (
             <Icon
-              key={skill}
+              key={skill.name}
               {...skill}
               className="wow animate__animated animate__zoomIn"
+              background
             />
           ))}
         </div>
         <div className="other">
           {other.map(skill => (
             <Icon
-              key={skill}
+              key={skill.name}
               {...skill}
               className="wow animate__animated animate__zoomIn"
+              background
             />
           ))}
         </div>
@@ -32,9 +34,10 @@ const SkillsBase = ({ className, currentStack, other, learning, tools }) => {
         <div className="tools">
           {tools.map(skill => (
             <Icon
-              key={skill}
+              key={skill.name}
               {...skill}
               className="wow animate__animated animate__zoomIn"
+              background
             />
           ))}
         </div>
@@ -42,9 +45,10 @@ const SkillsBase = ({ className, currentStack, other, learning, tools }) => {
         <div className="learning">
           {learning.map(skill => (
             <Icon
-              key={skill}
+              key={skill.name}
               {...skill}
               className="wow animate__animated animate__zoomIn"
+              background
             />
           ))}
         </div>

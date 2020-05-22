@@ -23,6 +23,10 @@ const BioBase = ({ className, description }) => {
           and <b>reading</b>.
         </p>
       </div>
+
+      <span className="contact">
+        <a href="mailto:dastag@gmail.com">Let&apos;s talk</a>
+      </span>
     </section>
   );
 };

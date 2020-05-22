@@ -3,12 +3,15 @@ import styled from 'styled-components';
 import BioBase from './BioBase';
 
 const Bio = styled(BioBase)`
+  text-align: center;
+
   div {
     border-radius: 1rem;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.25);
-    margin: 1rem auto;
-    max-width: 40rem;
+    margin: 2rem auto;
+    max-width: 50rem;
+    text-align: left;
 
     p {
       font-size: calc(0.6rem + 1vmin);
@@ -19,6 +22,24 @@ const Bio = styled(BioBase)`
         font-weight: normal;
         color: var(--highligh);
       }
+    }
+  }
+
+  .contact {
+    display: block;
+    margin: 1rem;
+
+    a {
+      padding: 1rem;
+      border: 1px solid var(--highligh);
+      color: var(--highligh);
+      border-radius: 0.25rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: var(--highligh);
+      color: var(--contrast);
     }
   }
 `;

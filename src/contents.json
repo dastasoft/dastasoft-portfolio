@@ -11,10 +11,7 @@
   },
   "skills": {
     "currentStack": [
-      {
-        "name": "react",
-        "caption": "React"
-      },
+      { "name": "react", "caption": "React" },
       { "name": "firebase", "caption": "Firebase" },
       { "name": "nodejs", "caption": "NodeJS" }
     ],
@@ -49,6 +46,13 @@
     "title": "Covid Radar",
     "description": "A simple predictive model and tracker for COVID-19 Spain cases.",
     "techList": ["react", "gatsby", "firebase", "netlify", "npm"],
+    "longDescription": [
+      "ReactJS",
+      "GatsbyJS",
+      "Firebase / Firestore / Cloud Functions",
+      "Netlify",
+      "NPM"
+    ],
     "projectLink": "https://covid-radar.xyz/",
     "sourceLink": "https://github.com/React-Jedis/covid-radar"
   },

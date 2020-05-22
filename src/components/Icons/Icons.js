@@ -8,9 +8,11 @@ const Icons = styled(IconsBase)`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 100%;
 
   .icon-capsule {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: ${({ background }) =>
+      background ? 'rgba(0, 0, 0, 0.25)' : ''};
     border: ${({ outlined }) =>
       outlined ? '1px solid var(--highligh)' : 'none'};
     padding: 0.2rem;

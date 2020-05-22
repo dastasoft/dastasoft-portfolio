@@ -10,6 +10,7 @@ const HighlightProjectBase = ({
   title,
   description,
   techList,
+  longDescription,
   projectLink,
   sourceLink
 }) => {
@@ -25,14 +26,19 @@ const HighlightProjectBase = ({
           <p className="description">{description}</p>
           <p className="made">Made with</p>
           <div className="tech">
-            {techList.map(tech => (
-              <Icon
-                key={tech}
-                name={tech}
-                className="wow animate__animated animate__rollIn"
-              />
-            ))}
+            {techList &&
+              techList.map(tech => (
+                <Icon
+                  key={tech}
+                  name={tech}
+                  className="wow animate__animated animate__rollIn"
+                />
+              ))}
           </div>
+          <ul className="long-description">
+            {longDescription &&
+              longDescription.map(item => <li key={item}>{item}</li>)}
+          </ul>
           <ProjectButtons projectLink={projectLink} sourceLink={sourceLink} />
         </div>
       </div>

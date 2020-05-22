@@ -16,7 +16,8 @@ const Introduction = styled(IntroductionBase)`
   }
 
   p,
-  span {
+  span,
+  div {
     padding: 1em 0;
     text-align: center;
   }

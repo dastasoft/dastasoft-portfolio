@@ -10,14 +10,14 @@ const ProjectButtonsBase = ({
   return (
     <div className={className}>
       <a href={projectLink} target="_blank" rel="noopener noreferrer">
-        <span>Check it out</span>
+        <span>Launch Live</span>
         <FontAwesomeIcon
           icon={['fas', 'external-link-square-alt']}
           size={size}
         />
       </a>
       <a href={sourceLink} target="_blank" rel="noopener noreferrer">
-        <span>Source code</span>
+        <span>View Code</span>
         <FontAwesomeIcon icon={['fab', 'github']} size={size} />
       </a>
     </div>

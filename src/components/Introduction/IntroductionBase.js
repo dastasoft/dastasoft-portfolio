@@ -29,7 +29,7 @@ const IntroductionBase = ({
           </Typist>
         </span>
         <p>{text}</p>
-        <p>
+        <div>
           Living in
           <Typist
             startDelay={3500}
@@ -38,7 +38,7 @@ const IntroductionBase = ({
           >
             <b> {place}</b>
           </Typist>
-        </p>
+        </div>
       </div>
       <Social className="social" socialList={socialList} />
     </section>
