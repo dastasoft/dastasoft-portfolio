@@ -3,39 +3,32 @@ import styled from 'styled-components';
 import SkillsBase from './SkillsBase';
 
 const Skills = styled(SkillsBase)`
-  background-color: var(--skills);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  .flex {
-    margin-top: 0.5rem;
+  .content {
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    > *:last-of-type {
-      margin-right: 0;
-    }
+    flex-direction: column;
+    align-items: center;
   }
 
   .current-stack {
-    justify-content: space-around;
+    margin: 0.5rem 0 0.8rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(5rem, 9rem));
+    grid-gap: 1em;
   }
 
-  .coming-soon {
-    justify-content: space-around;
+  .other,
+  .tools,
+  .learning {
+    margin: 0.5rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(3rem, 5rem));
+    grid-gap: 1em;
   }
 
-  .skill {
-    margin-bottom: 1rem;
-    margin-right: 1.5rem;
-  }
-
-  @media screen and (min-width: 660px) {
-    .flex {
-      justify-content: space-around;
-    }
+  img {
+    width: inherit;
+    height: inherit;
   }
 `;
 

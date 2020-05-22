@@ -11,18 +11,27 @@ const ProjectCard = styled(ProjectCardBase)`
     text-align: center;
     width: 100%;
     height: 100%;
-    border: 2px solid var(--important);
-    border-radius: 2px;
-    padding: 0 0.8rem;
+    border-radius: 4px;
+    padding: 0.8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.25);
+
+    .title {
+      font-size: 1.4rem;
+    }
+
+    .description {
+      padding: 0.5rem 0;
+      font-size: 0.8rem;
+    }
   }
 
   .tech {
     display: flex;
     justify-content: space-around;
+    padding: 0.5rem 0;
   }
 `;
 

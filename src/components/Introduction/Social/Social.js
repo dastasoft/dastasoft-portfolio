@@ -8,7 +8,7 @@ const Social = styled(SocialBase)`
   justify-content: space-around;
 
   a {
-    color: var(--important);
+    color: var(--highligh);
   }
 `;
 

@@ -15,23 +15,27 @@ const HighlightProjectBase = ({
 }) => {
   return (
     <section className={className}>
-      <h1>{title}</h1>
-      <figure className="mobile-preview">
-        <img src={HighlightPreview} alt={`${title} mobile preview`} />
-      </figure>
-      <p className="description">{description}</p>
-      <p>Made with</p>
-      <div className="tech">
-        {techList.map(tech => (
-          <Icon
-            key={tech}
-            name={tech}
-            width="3rem"
-            className="wow animate__animated animate__rollIn"
-          />
-        ))}
+      <h1>Last Project</h1>
+      <div className="content">
+        <figure className="mobile-preview">
+          <img src={HighlightPreview} alt={`${title} mobile preview`} />
+        </figure>
+        <div className="project-info">
+          <h3>{title}</h3>
+          <p className="description">{description}</p>
+          <p className="made">Made with</p>
+          <div className="tech">
+            {techList.map(tech => (
+              <Icon
+                key={tech}
+                name={tech}
+                className="wow animate__animated animate__rollIn"
+              />
+            ))}
+          </div>
+          <ProjectButtons projectLink={projectLink} sourceLink={sourceLink} />
+        </div>
       </div>
-      <ProjectButtons projectLink={projectLink} sourceLink={sourceLink} />
     </section>
   );
 };

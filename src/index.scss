@@ -4,20 +4,12 @@
   --highligh: #0c7b93;
   --important: #00a8cc;
   --contrast: #d1ccc0;
-  --introduction: #1b262c;
-  --skills: #2b2e4a;
-  --highlightProject: #112d4e;
-  --projects: #27496d;
-  --footer: #575151;
 }
 
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
 }
 *,
 *:before,
@@ -34,8 +26,14 @@ body {
 }
 
 section {
-  height: 100vh;
-  width: 100vw;
+  min-height: 70vh;
+  width: 100%;
   padding: 1rem;
-  scroll-snap-align: start;
+
+  h1 {
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: var(--highligh);
+    margin: 0 -1rem 1rem -1rem;
+  }
 }

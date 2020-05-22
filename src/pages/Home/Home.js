@@ -27,12 +27,13 @@ const Home = () => {
         socialList={social}
         className="wow animate__animated animate__fadeIn"
       />
+      <Bio {...bio} className="wow animate__animated animate__fadeIn" />
       <Skills {...skills} className="wow animate__animated animate__fadeIn" />
       <HighlightProject
         className="wow animate__animated animate__fadeIn"
         {...highlightProject}
       />
-      <Projects projects={projects} />
+      {/* <Projects projects={projects} /> */}
     </Layout>
   );
 };

@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import IntroductionBase from './IntroductionBase';
 
 const Introduction = styled(IntroductionBase)`
-  font-size: 1.5rem;
+  min-height: 100vh;
+  font-size: calc(1rem + 1vmin);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +22,7 @@ const Introduction = styled(IntroductionBase)`
   }
 
   b {
-    color: var(--important);
+    color: var(--highligh);
   }
 `;
 

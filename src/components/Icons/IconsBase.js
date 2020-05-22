@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { string, arrayOf } from 'prop-types';
+import { string } from 'prop-types';
 
 import Android from './assets/android.svg';
 import CPPIcon from './assets/cpp.svg';
@@ -22,6 +22,7 @@ import NextJS from './assets/nextjs.svg';
 import NodeJsIcon from './assets/nodejs.svg';
 import NPMIcon from './assets/npm.svg';
 import Parcel from './assets/parcel.png';
+import PHPIcon from './assets/php.svg';
 import PythonIcon from './assets/python.svg';
 import ReactIcon from './assets/react.svg';
 import ReactNative from './assets/react-native.svg';
@@ -34,7 +35,7 @@ import VSCodeIcon from './assets/vscode.svg';
 import WebpackIcon from './assets/webpack.svg';
 import YarnIcon from './assets/yarn.svg';
 
-const IconsBase = ({ className, name, captions }) => {
+const IconsBase = ({ className, name, caption }) => {
   const [icon, setIcon] = useState(null);
 
   useEffect(() => {
@@ -104,6 +105,9 @@ const IconsBase = ({ className, name, captions }) => {
       case 'parcel':
         element = <img src={Parcel} alt="parcel" />;
         break;
+      case 'php':
+        element = <PHPIcon />;
+        break;
       case 'python':
         element = <PythonIcon />;
         break;
@@ -146,24 +150,22 @@ const IconsBase = ({ className, name, captions }) => {
   }, []);
 
   return (
-    <figure className={className}>
-      {icon}
-      <figcaption className="caption">
-        {captions && captions.map(caption => <p key={caption}>{caption}</p>)}
-      </figcaption>
-    </figure>
+    <div className={className}>
+      <div className="icon-capsule">{icon}</div>
+      <span className="caption">{caption}</span>
+    </div>
   );
 };
 
 IconsBase.propTypes = {
   className: string.isRequired,
   name: string,
-  captions: arrayOf(string)
+  caption: string
 };
 
 IconsBase.defaultProps = {
   name: '',
-  captions: []
+  captions: ''
 };
 
 export default IconsBase;

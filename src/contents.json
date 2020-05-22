@@ -1,49 +1,48 @@
 {
   "introduction": {
     "name": "Daniel Asta",
-    "nick": "ダニエルあすた",
-    "text": "Full Stack Developer, Japanese culture and Rythm games lover",
-    "place": "Barcelona"
+    "nick": "アスタダニエル",
+    "text": "Full Stack Developer, I love learn, teach, Japanese culture and Rythm games",
+    "place": "Barcelona",
+    "email": "dastasoft@gmail.com"
   },
   "bio": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend commodo arcu vitae porttitor. Maecenas lectus leo, mollis quis nulla vel, molestie lobortis nunc. Aliquam quis leo tellus."
+    "description": ""
   },
   "skills": {
     "currentStack": [
-      { "name": "react", "captions": ["React", "Hooks", "Suspense"] },
-      { "name": "firebase", "captions": ["Firestore", "Cloud Functions"] },
-      { "name": "nodejs", "captions": ["NodeJS", "Express"] }
+      {
+        "name": "react",
+        "caption": "React"
+      },
+      { "name": "firebase", "caption": "Firebase" },
+      { "name": "nodejs", "caption": "NodeJS" }
     ],
     "other": [
-      { "name": "html", "captions": ["HTML5"] },
-      { "name": "css", "captions": ["CSS3", "Flexbox", "Grid"] },
-      { "name": "javascript", "captions": ["JavaScript", "ES6+"] },
-      { "name": "redux", "captions": ["Redux"] },
-      { "name": "styled-components", "captions": ["Styled Components"] },
-      { "name": "react-native", "captions": ["React Native"] },
-      { "name": "gatsby", "captions": ["Gatsby"] },
-      { "name": "java", "captions": ["Java"] },
-      { "name": "cpp", "captions": ["C++"] },
-      { "name": "godot", "captions": ["GDScript"] }
+      { "name": "html", "caption": "HTML5" },
+      { "name": "css", "caption": "CSS3" },
+      { "name": "javascript", "caption": "JavaScript" },
+      { "name": "redux", "caption": "Redux" },
+      { "name": "styled-components", "caption": "Styled" },
+      { "name": "react-native", "caption": "Native" },
+      { "name": "gatsby", "caption": "Gatsby" },
+      { "name": "java", "caption": "Java" },
+      { "name": "cpp", "caption": "C++" },
+      { "name": "php", "caption": "PHP" }
     ],
     "tools": [
-      { "name": "git", "captions": ["Git"] },
-      { "name": "npm", "captions": ["NPM"] },
-      { "name": "yarn", "captions": ["Yarn"] },
-      { "name": "electron", "captions": ["Electron"] },
-      { "name": "storybook", "captions": ["Storybook"] },
-      { "name": "webpack", "captions": ["Webpack"] },
-      { "name": "parcel", "captions": ["Parcel"] },
-      { "name": "github", "captions": ["Github"] },
-      { "name": "netlify", "captions": ["Netlify"] },
-      { "name": "heroku", "captions": ["Heroku"] }
+      { "name": "electron", "caption": "Electron" },
+      { "name": "storybook", "caption": "Storybook" },
+      { "name": "github", "caption": "Github" },
+      { "name": "netlify", "caption": "Netlify" },
+      { "name": "heroku", "caption": "Heroku" }
     ],
-    "comingSoon": [
-      { "name": "tailwindcss", "captions": ["TailWindCSS"] },
-      { "name": "jest", "captions": ["Jest"] },
-      { "name": "typescript", "captions": ["TypeScript"] },
-      { "name": "nextjs", "captions": ["NextJS"] },
-      { "name": "graphql", "captions": ["GraphQL"] }
+    "learning": [
+      { "name": "tailwindcss", "caption": "TailWindCSS" },
+      { "name": "jest", "caption": "Jest" },
+      { "name": "typescript", "caption": "TypeScript" },
+      { "name": "nextjs", "caption": "NextJS" },
+      { "name": "graphql", "caption": "GraphQL" }
     ]
   },
   "highlightProject": {
@@ -56,9 +55,9 @@
   "projects": [
     {
       "id": "reactBoilerplateParcel",
-      "title": "React Boilerplate Parcel",
+      "title": "React Parcel",
       "description": "A React boilerplate made with Parcel, fast and ready-to-go.",
-      "techList": ["react", "parcel", "yarn"],
+      "techList": ["react", "", "yarn"],
       "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
       "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
     },
@@ -73,7 +72,7 @@
     {
       "id": "growMeeting",
       "title": "Grow Meeting",
-      "description": "Join video chat rooms with fun actions like sounds to interact with your friends, for Web and Mobile.",
+      "description": "Join video chat rooms with fun actions to interact with your friends, for Web and Mobile.",
       "techList": ["react", "netlify", "yarn", "react-native"],
       "projectLink": "https://grow-meeting.netlify.app/",
       "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"

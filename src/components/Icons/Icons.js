@@ -4,20 +4,28 @@ import { string } from 'prop-types';
 import IconsBase from './IconsBase';
 
 const Icons = styled(IconsBase)`
-  width: ${({ width }) => width};
-  height: ${({ height }) => height};
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 
-  img {
-    width: ${({ width }) => width};
+  .icon-capsule {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: ${({ outlined }) =>
+      outlined ? '1px solid var(--highligh)' : 'none'};
+    padding: 0.2rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    min-width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .caption {
     margin-top: 0.5em;
-    font-size: 0.6rem;
+    font-size: calc(5px + 1vmin);
     text-align: center;
   }
 `;

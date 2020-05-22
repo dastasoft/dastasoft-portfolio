@@ -12,10 +12,10 @@ const ProjectButtons = styled(ProjectButtonsBase)`
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    color: var(--contrast);
+    color: var(--highligh);
     padding: 0.5rem;
-    background: linear-gradient(to bottom right, var(--important), var(--sub));
-    border-radius: 0.5rem;
+    border: 1px solid var(--highligh);
+    border-radius: 2px;
 
     span {
       margin-right: 0.5rem;

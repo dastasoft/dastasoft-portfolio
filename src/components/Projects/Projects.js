@@ -6,7 +6,7 @@ const Projects = styled(ProjectsBase)`
   background-color: var(--projects);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 30rem));
-  grid-auto-rows: auto;
+  grid-auto-rows: 200px;
   grid-gap: 1rem;
   justify-content: center;
 `;
