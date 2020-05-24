@@ -3,6 +3,7 @@ import { string, array } from 'prop-types';
 
 import Icon from '../Icons';
 import HighlightPreview from '../../assets/images/highlight_preview.png';
+import HighlightFullPreview from '../../assets/images/highlight_full_preview.png';
 import ProjectButtons from '../ProjectButtons/ProjectButtons';
 
 const HighlightProjectBase = ({
@@ -19,7 +20,16 @@ const HighlightProjectBase = ({
       <h1>Last Project</h1>
       <div className="content">
         <figure className="mobile-preview">
-          <img src={HighlightPreview} alt={`${title} mobile preview`} />
+          <img
+            className="mobile wow animate__animated animate__fadeIn"
+            src={HighlightPreview}
+            alt={`${title} mobile preview`}
+          />
+          <img
+            className="full wow animate__animated animate__fadeIn"
+            src={HighlightFullPreview}
+            alt={`${title} mobile and desktop preview`}
+          />
         </figure>
         <div className="project-info">
           <h3>{title}</h3>

@@ -11,9 +11,12 @@ const HighlightProject = styled(HighlightProjectBase)`
   }
 
   .mobile-preview {
-    img {
+    .mobile {
       max-width: 30vh;
       height: auto;
+    }
+    .full {
+      display: none;
     }
   }
 
@@ -61,12 +64,13 @@ const HighlightProject = styled(HighlightProjectBase)`
 
   @media screen and (min-width: 760px) {
     .content {
+      padding: 1rem 0 3rem 0;
       flex-direction: row;
       align-items: stretch;
     }
 
     .mobile-preview {
-      img {
+      .mobile {
         max-width: 15rem;
         height: auto;
       }
@@ -83,6 +87,24 @@ const HighlightProject = styled(HighlightProjectBase)`
 
       .long-description {
         display: block;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .content {
+      padding: 3rem 0 5rem 0;
+    }
+
+    .mobile-preview {
+      .mobile {
+        display: none;
+      }
+      .full {
+        display: block;
+        max-width: 43.5rem;
+        height: auto;
+        margin-right: 1rem;
       }
     }
   }

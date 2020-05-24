@@ -14,6 +14,13 @@ const Projects = styled(ProjectsBase)`
   @media screen and (min-width: 660px) {
     .project-deck {
       grid-auto-rows: 300px;
+      padding: 1rem 0 3rem 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .project-deck {
+      padding: 3rem 0 5rem 0;
     }
   }
 `;

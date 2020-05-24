@@ -1,7 +1,7 @@
 import React from 'react';
 import { string } from 'prop-types';
 
-const BioBase = ({ className, description }) => {
+const BioBase = ({ className }) => {
   return (
     <section className={className}>
       <h1>About Me</h1>
@@ -32,12 +32,7 @@ const BioBase = ({ className, description }) => {
 };
 
 BioBase.propTypes = {
-  className: string.isRequired,
-  description: string
-};
-
-BioBase.defaultProps = {
-  description: ''
+  className: string.isRequired
 };
 
 export default BioBase;
