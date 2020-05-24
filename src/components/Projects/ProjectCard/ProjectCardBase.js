@@ -15,25 +15,30 @@ const ProjectCardBase = ({
 }) => {
   return (
     <div className={className}>
-      <div className="preview" />
       <div className="card">
-        <h1 className="title">{title}</h1>
-        <span className="description">{description}</span>
-        <div className="tech">
-          {techList.map(tech => (
-            <Icon
-              key={tech}
-              name={tech}
-              width="2.5rem"
-              className="wow animate__animated animate__zoomIn"
+        {previewImg && (
+          <div className="preview">
+            <img
+              className="wow animate__animated animate__fadeIn"
+              src={previewImg}
+              alt={`${title} preview`}
             />
-          ))}
+          </div>
+        )}
+        <div className="card-content">
+          <h2 className="title">{title}</h2>
+          <span className="description">{description}</span>
+          <div className="tech">
+            {techList.map(tech => (
+              <Icon key={tech} name={tech} />
+            ))}
+          </div>
+          <ProjectButtons
+            projectLink={projectLink}
+            sourceLink={sourceLink}
+            size="1x"
+          />
         </div>
-        <ProjectButtons
-          projectLink={projectLink}
-          sourceLink={sourceLink}
-          size="1x"
-        />
       </div>
     </div>
   );

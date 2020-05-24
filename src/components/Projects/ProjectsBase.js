@@ -13,14 +13,17 @@ const ProjectsBase = ({ className, projects }) => {
 
   return (
     <section className={className}>
-      {projects.map(project => (
-        <ProjectCard
-          className="wow fanimate__adeIn"
-          key={project.id}
-          previewImg={imagePreviews[project.id]}
-          {...project}
-        />
-      ))}
+      <h1>More Projects</h1>
+      <div className="project-deck">
+        {projects.map(project => (
+          <ProjectCard
+            className="wow animate__animated animate__fadeIn"
+            key={project.id}
+            previewImg={imagePreviews[project.id]}
+            {...project}
+          />
+        ))}
+      </div>
     </section>
   );
 };

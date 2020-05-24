@@ -6,9 +6,6 @@
     "place": "Barcelona",
     "email": "dastasoft@gmail.com"
   },
-  "bio": {
-    "description": ""
-  },
   "skills": {
     "currentStack": [
       { "name": "react", "caption": "React" },
@@ -60,15 +57,15 @@
     {
       "id": "reactBoilerplateParcel",
       "title": "React Parcel",
-      "description": "A React boilerplate made with Parcel, fast and ready-to-go.",
-      "techList": ["react", "", "yarn"],
+      "description": "A React boilerplate with Parcel bundler, already configured, fast and ready-to-go.",
+      "techList": ["react", "parcel", "yarn"],
       "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
       "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
     },
     {
       "id": "congressCrush",
       "title": "Congress Crush",
-      "description": "Match 3 game made with Godot for Android and Web.",
+      "description": "Match 3 game about political elections in Spain made with Godot for Android and Web.",
       "techList": ["godot", "python", "android", "react"],
       "projectLink": "https://the-four-lords.github.io/congress-crush-app/",
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
