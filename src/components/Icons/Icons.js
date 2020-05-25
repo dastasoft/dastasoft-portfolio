@@ -24,8 +24,12 @@ const Icons = styled(IconsBase)`
     align-items: center;
     justify-content: center;
 
+    svg {
+      width: inherit;
+      height: inherit;
+    }
+
     img {
-      width: auto;
       height: inherit;
     }
   }
