@@ -79,6 +79,11 @@
     }
   ],
   "social": [
+    {
+      "name": "mail",
+      "link": "mailto:dastasoft@gmail.com",
+      "custom": "envelope"
+    },
     { "name": "linkedin", "link": "https://www.linkedin.com/in/dastag/" },
     { "name": "github", "link": "https://github.com/dastasoft" },
     { "name": "dev", "link": "https://dev.to/dastasoft" },

@@ -14,7 +14,7 @@ const SocialBase = ({ className, socialList }) => {
         >
           <FontAwesomeIcon
             className="wow animate__bounceIn"
-            icon={['fab', social.name]}
+            icon={social.custom ? social.custom : ['fab', social.name]}
             size="2x"
           />
         </a>
