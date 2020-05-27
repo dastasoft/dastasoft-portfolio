@@ -7,11 +7,19 @@ import Bio from '../../components/Bio';
 import Skills from '../../components/Skills';
 import HighlightProject from '../../components/HighlightProject';
 import Projects from '../../components/Projects';
+import ProfessionalExp from '../../components/ProfessionalExp';
 import content from '../../contents.json';
 import './Home.scss';
 
 const Home = () => {
-  const { introduction, skills, highlightProject, projects, social } = content;
+  const {
+    introduction,
+    skills,
+    highlightProject,
+    projects,
+    social,
+    professionalExp
+  } = content;
 
   return (
     <Layout>
@@ -27,6 +35,7 @@ const Home = () => {
         {...highlightProject}
       />
       <Projects projects={projects} />
+      <ProfessionalExp professionalExp={professionalExp} />
     </Layout>
   );
 };

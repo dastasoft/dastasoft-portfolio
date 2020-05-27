@@ -5,12 +5,12 @@ import ProjectCard from './ProjectCard';
 import CongressCrushPreview from '../../assets/images/congress-crush.png';
 import GrowMeetingPreview from '../../assets/images/grow-meeting.png';
 
-const ProjectsBase = ({ className, projects }) => {
-  const imagePreviews = {
-    congressCrush: CongressCrushPreview,
-    growMeeting: GrowMeetingPreview
-  };
+const imagePreviews = {
+  congressCrush: CongressCrushPreview,
+  growMeeting: GrowMeetingPreview
+};
 
+const ProjectsBase = ({ className, projects }) => {
   return (
     <section className={className}>
       <h1>More Projects</h1>

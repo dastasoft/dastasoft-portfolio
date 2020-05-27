@@ -6,7 +6,7 @@ const Projects = styled(ProjectsBase)`
   .project-deck {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(18rem, 30rem));
-    grid-auto-rows: 250px;
+    grid-auto-rows: 225px;
     grid-gap: 1rem;
     justify-content: center;
   }
