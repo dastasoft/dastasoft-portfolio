@@ -15,26 +15,35 @@ const JobItemBase = ({
   techList
 }) => {
   return (
-    <div className={className}>
-      <span>{contractDate}</span>
-      <img src={companyIcon} alt={`${companyName} logo`} />
-      <span>{totalTime}</span>
-      <h2>{position}</h2>
-      <h3>
-        {companyName} - {contractType}
-      </h3>
-      <p>{shortDescription}</p>
-      <ul>
-        {items.map(item => (
-          <li>{item}</li>
-        ))}
-      </ul>
+    <li className={className}>
+      <span className="contract-date">{contractDate}</span>
       <div>
-        {techList.map(tech => (
-          <TechTag key={tech} name={tech} />
-        ))}
+        <div className="job-header">
+          <img
+            className="company-icon"
+            src={companyIcon}
+            alt={`${companyName} logo`}
+          />
+          <div>
+            <h2 className="position">{position}</h2>
+            <h3 className="company-desc">
+              {companyName} - {contractType} - {totalTime}
+            </h3>
+          </div>
+        </div>
+        <p className="short-description">{shortDescription}</p>
+        <ul className="description-list">
+          {items.map(item => (
+            <li>{item}</li>
+          ))}
+        </ul>
+        <div>
+          {techList.map(tech => (
+            <TechTag key={tech} text={tech} />
+          ))}
+        </div>
       </div>
-    </div>
+    </li>
   );
 };
 

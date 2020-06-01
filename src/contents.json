@@ -88,15 +88,120 @@
   ],
   "professionalExp": [
     {
-      "id": "id",
-      "position": "position",
-      "companyName": "companyName",
-      "contractType": "contractType",
-      "contractDate": "contractDate",
-      "totalTime": "totalTime",
-      "shortDescription": "shortDescription",
-      "items": ["items", "items"],
-      "techList": ["techList", "techList"]
+      "id": "ancert",
+      "position": "Full Stack Analyst Developer",
+      "companyName": "Ancert",
+      "contractType": "Full Time",
+      "contractDate": "2019",
+      "totalTime": "11 months (current)",
+      "shortDescription": "Technical analysis, development and training for web applications in the notary sector.",
+      "items": [
+        "Analysis, planning and development of migration projects from Sencha ExtJS to React.",
+        "Development of new applications in React.",
+        "Creation of a component catalogue for use across the company.",
+        "Creation of tools in an architectural way that offers transversal solutions to the different teams involved in technological change.",
+        "Implementation of automated unit tests.",
+        "Training in Javascript, React/Redux and Agile methodologies.",
+        "Use of SCRUM, eXtreme Programming and personal efficiency improvements."
+      ],
+      "techList": [
+        "React",
+        "Redux",
+        "SCSS",
+        "Flexbox",
+        "Grid",
+        "Cypress",
+        "JavaScript ES6+",
+        "Webpack",
+        "Storybook",
+        "NodeJs",
+        "Agile",
+        "SCRUM",
+        "eXtreme Programming"
+      ]
+    },
+    {
+      "id": "gft",
+      "position": "Full Stack Analyst Developer",
+      "companyName": "GFT Group",
+      "contractType": "Full Time",
+      "contractDate": "2017",
+      "totalTime": "1 year and 10 months",
+      "shortDescription": "Full stack analyst developer for the planning, analysis, development, management and evolution of the digital signature web platform in the bank.",
+      "items": [
+        "Frontend development and backend services.",
+        "Coordination and management of the team, tasks and workloads.",
+        "Coordination and management between different vendors.",
+        "Elaboration of functional and technical documentation.",
+        "Quality control of code, unit tests and end-to-end tests",
+        "Customer requirements taking.",
+        "Presentation of the project and its different extensions in the client.",
+        "Reference person at the technical level of the project.",
+        "Participation in functional and technical meetings."
+      ],
+      "techList": [
+        "HTML5",
+        "CSS3",
+        "JavaScript ES5",
+        "Java",
+        "Spring",
+        "Agile",
+        "UML"
+      ]
+    },
+    {
+      "id": "necsia",
+      "position": "Senior Java Developer",
+      "companyName": "Necsia IT Consulting",
+      "contractType": "Full Time",
+      "contractDate": "2015",
+      "totalTime": "2 years and 7 months",
+      "shortDescription": "Analysis and development for desktop applications and web applications for the banking sector as well as the development of the intranet used by workers in the bank's offices.",
+      "items": [
+        "Development of backend services and the intranet.",
+        "Writing of technical documentation.",
+        "Taking customer requirements.",
+        "Presentation of projects in client.",
+        "Participation in technical and functional meetings.",
+        "Quality control of code, unit tests and end-to-end tests."
+      ],
+      "techList": [
+        "Java",
+        "Spring",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "jQuery UI",
+        "UML"
+      ]
+    },
+    {
+      "id": "sigma",
+      "position": "Java Developer",
+      "companyName": "Necsia IT Consulting",
+      "contractType": "Full Time",
+      "contractDate": "2012",
+      "totalTime": "3 years and 2 months",
+      "shortDescription": "Development of new products for the management of scientific production of the Spanish scientific community.",
+      "items": [
+        "Development of backend services and frontend services.",
+        "Database maintenance and development.",
+        "Unit tests of the developments.",
+        "Training for new employees and junior profiles."
+      ],
+      "techList": [
+        "Java",
+        "Spring",
+        "Struts",
+        "Hibernate",
+        "JSP",
+        "Icefaces",
+        "SQL",
+        "HQL",
+        "Selenium",
+        "JUnit"
+      ]
     }
   ],
   "social": [

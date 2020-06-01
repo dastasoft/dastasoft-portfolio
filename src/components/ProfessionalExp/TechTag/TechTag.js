@@ -8,14 +8,14 @@ const TechTag = styled(TechTagBase)`
   background-color: white;
   color: black;
   cursor: pointer;
-  border: 1px solid teal;
+  border: 1px solid var(--highligh);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: calc(0.5rem + 1vmin);
 
-  :hover {
-    background-color: black;
+  &:hover {
+    background-color: var(--important);
     color: white;
   }
 `;

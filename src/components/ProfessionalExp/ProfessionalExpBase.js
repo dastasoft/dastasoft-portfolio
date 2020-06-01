@@ -19,7 +19,7 @@ const ProfessionalExpBase = ({ className, professionalExp }) => {
     <section className={className}>
       <h1>Professional Experience</h1>
       {/* Tech filter */}
-      <ul>
+      <ul className="job-list">
         {professionalExp.map(job => (
           <JobItem
             key={job.companyName}
