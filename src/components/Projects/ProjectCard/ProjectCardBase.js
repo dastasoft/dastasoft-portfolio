@@ -30,14 +30,20 @@ const ProjectCardBase = ({
           <span className="description">{description}</span>
           <div className="tech">
             {techList.map(tech => (
-              <Icon key={tech} name={tech} />
+              <Icon key={tech} name={tech} caption={tech} />
             ))}
           </div>
-          <ProjectButtons
-            projectLink={projectLink}
-            sourceLink={sourceLink}
-            size="1x"
-          />
+          {projectLink || sourceLink ? (
+            <ProjectButtons
+              projectLink={projectLink}
+              sourceLink={sourceLink}
+              size="1x"
+            />
+          ) : (
+            <span className="not-available">
+              This project is no longer available
+            </span>
+          )}
         </div>
       </div>
     </div>

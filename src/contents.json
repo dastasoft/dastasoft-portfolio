@@ -56,8 +56,8 @@
     {
       "id": "growMeeting",
       "title": "Grow Meeting",
-      "description": "Jitsi video chat integration with Websockets to provide real time interactions across all participants, for Web and Mobile.",
-      "techList": ["react", "netlify", "yarn", "react-native"],
+      "description": "Jitsi video chat integration with Websockets to provide real time interactions.",
+      "techList": ["react", "netlify", "styled-components", "react-native"],
       "projectLink": "https://grow-meeting.netlify.app/",
       "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
     },
@@ -70,20 +70,26 @@
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
     },
     {
-      "id": "reactBoilerplateParcel",
-      "title": "React Parcel",
-      "description": "A React boilerplate with Parcel bundler, already configured, fast and ready-to-go.",
-      "techList": ["react", "parcel", "yarn"],
-      "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
-      "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
-    },
-    {
       "id": "portfolio",
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
-      "techList": ["react", "parcel", "yarn", "styled-components"],
+      "techList": ["react", "parcel", "styled-components", "netlify"],
       "projectLink": "https://dastasoft.netlify.app/",
       "sourceLink": "https://github.com/dastasoft/dastasoft-portfolio"
+    },
+    {
+      "id": "rankup",
+      "title": "Rank ^ Up",
+      "description": "Spanish community of Dota 2 with news, tutorials, gameplays and live broadcast.",
+      "techList": ["wordpress", "php", "html", "css"]
+    },
+    {
+      "id": "reactBoilerplateParcel",
+      "title": "React Parcel",
+      "description": "A React boilerplate with Parcel bundler, already configured, fast and ready-to-go.",
+      "techList": ["react", "parcel", "yarn", "styled-components"],
+      "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
+      "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
     }
   ],
   "professionalExp": [

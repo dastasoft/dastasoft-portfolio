@@ -33,6 +33,7 @@ import TailWindCSSIcon from './assets/tailwindcss.svg';
 import TypeScriptIcon from './assets/typescript.svg';
 import VSCodeIcon from './assets/vscode.svg';
 import WebpackIcon from './assets/webpack.svg';
+import WordpressIcon from './assets/wordpress.png';
 import YarnIcon from './assets/yarn.svg';
 
 const IconsBase = ({ className, name, caption }) => {
@@ -137,6 +138,9 @@ const IconsBase = ({ className, name, caption }) => {
         break;
       case 'webpack':
         element = <WebpackIcon />;
+        break;
+      case 'wordpress':
+        element = <img src={WordpressIcon} alt="wordpress" />;
         break;
       case 'yarn':
         element = <YarnIcon />;

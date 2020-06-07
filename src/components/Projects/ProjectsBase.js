@@ -4,10 +4,14 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import CongressCrushPreview from '../../assets/images/congress-crush.png';
 import GrowMeetingPreview from '../../assets/images/grow-meeting.png';
+import RankUpPreview from '../../assets/images/rankup.png';
+import PortfolioPreview from '../../assets/images/portfolio.png';
 
 const imagePreviews = {
   congressCrush: CongressCrushPreview,
-  growMeeting: GrowMeetingPreview
+  growMeeting: GrowMeetingPreview,
+  rankup: RankUpPreview,
+  portfolio: PortfolioPreview
 };
 
 const ProjectsBase = ({ className, projects }) => {

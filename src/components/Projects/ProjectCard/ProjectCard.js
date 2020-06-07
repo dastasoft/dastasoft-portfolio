@@ -28,6 +28,7 @@ const ProjectCard = styled(ProjectCardBase)`
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
 
       .title {
         font-size: calc(1rem + 1vmin);
@@ -42,7 +43,14 @@ const ProjectCard = styled(ProjectCardBase)`
         display: flex;
         justify-content: space-around;
         padding: 0.5rem 0;
-        height: 5rem;
+        margin-bottom: 1rem;
+        height: 4rem;
+      }
+
+      .not-available {
+        color: var(--highligh);
+        padding: 0.5rem;
+        margin-right: 0.5rem;
       }
     }
   }
