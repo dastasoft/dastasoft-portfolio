@@ -82,8 +82,8 @@
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
       "techList": ["react", "parcel", "yarn", "styled-components"],
-      "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
-      "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
+      "projectLink": "https://dastasoft.netlify.app/",
+      "sourceLink": "https://github.com/dastasoft/dastasoft-portfolio"
     }
   ],
   "professionalExp": [
