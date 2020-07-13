@@ -98,8 +98,9 @@
       "position": "Developer Advocacy",
       "companyName": "Ancert",
       "contractType": "Full Time",
-      "contractDate": "2019",
-      "totalTime": "11 months (current)",
+      "contractDate": {
+        "start": "2019-08-26"
+      },
       "shortDescription": "Technical analysis, development and training for web applications in the notary sector.",
       "items": [
         "Analysis, planning and development of migration projects from Sencha ExtJS to React.",
@@ -131,8 +132,10 @@
       "position": "Full Stack Analyst Developer",
       "companyName": "GFT Group",
       "contractType": "Full Time",
-      "contractDate": "2017",
-      "totalTime": "1 year and 10 months",
+      "contractDate": {
+        "start": "2017-11-01",
+        "end": "2019-08-31"
+      },
       "shortDescription": "Full stack analyst developer for the planning, analysis, development, management and evolution of the digital signature web platform in the bank.",
       "items": [
         "Frontend development and backend services.",
@@ -160,8 +163,10 @@
       "position": "Senior Java Developer",
       "companyName": "Necsia IT Consulting",
       "contractType": "Full Time",
-      "contractDate": "2015",
-      "totalTime": "2 years and 7 months",
+      "contractDate": {
+        "start": "2015-05-01",
+        "end": "2017-11-30"
+      },
       "shortDescription": "Analysis and development for desktop applications and web applications for the banking sector as well as the development of the intranet used by workers in the bank's offices.",
       "items": [
         "Development of backend services and the intranet.",
@@ -187,8 +192,10 @@
       "position": "Java Developer",
       "companyName": "Sigma AIE",
       "contractType": "Full Time",
-      "contractDate": "2012",
-      "totalTime": "3 years and 2 months",
+      "contractDate": {
+        "start": "2012-01-01",
+        "end": "2015-02-28"
+      },
       "shortDescription": "Development of new products for the management of scientific production of the Spanish scientific community.",
       "items": [
         "Development of backend services and frontend services.",

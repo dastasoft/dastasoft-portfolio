@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import TechTag from '../TechTag';
 
@@ -16,7 +17,9 @@ const JobItemBase = ({
 }) => {
   return (
     <li className={className}>
-      <span className="contract-date">{contractDate}</span>
+      <span className="contract-date">
+        {moment(contractDate.start).format('YYYY')}
+      </span>
       <div>
         <div className="job-header">
           <img
