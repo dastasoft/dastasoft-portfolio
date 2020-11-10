@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AvatarImg from '../../../assets/images/avatar.jpg';
+import AvatarImg from '../../../assets/images/avatar.jpeg';
 
 const AvatarBase = ({ className }) => {
   return (

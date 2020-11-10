@@ -10,7 +10,7 @@ const ProjectCard = styled(ProjectCardBase)`
     width: 100%;
     height: 100%;
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 

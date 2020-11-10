@@ -2,26 +2,29 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Full Stack Developer, I love learn, teach, Japanese culture and Rhythm games",
+    "text": "Developer Advocate, I love learning, teaching, Japanese culture and rhythm games, self-proclaimed expert curry and ramen taster.",
     "place": "Barcelona"
   },
   "skills": {
     "currentStack": [
-      { "name": "react", "caption": "React" },
-      { "name": "firebase", "caption": "Firebase" },
-      { "name": "nodejs", "caption": "NodeJS" }
+      { "name": "nextjs", "caption": "Next.js" },
+      { "name": "react-native", "caption": "React Native" },
+      { "name": "firebase", "caption": "Firebase" }
     ],
     "other": [
       { "name": "html", "caption": "HTML5" },
       { "name": "css", "caption": "CSS3" },
       { "name": "javascript", "caption": "JavaScript" },
+      { "name": "react", "caption": "React" },
       { "name": "redux", "caption": "Redux" },
+      { "name": "nodejs", "caption": "NodeJS" },
       { "name": "styled-components", "caption": "Styled" },
-      { "name": "react-native", "caption": "Native" },
+      { "name": "tailwindcss", "caption": "TailWindCSS" },
       { "name": "gatsby", "caption": "Gatsby" },
       { "name": "java", "caption": "Java" },
       { "name": "cpp", "caption": "C++" },
-      { "name": "php", "caption": "PHP" }
+      { "name": "php", "caption": "PHP" },
+      { "name": "wordpress", "caption": "Wordpress" }
     ],
     "tools": [
       { "name": "electron", "caption": "Electron" },
@@ -31,11 +34,11 @@
       { "name": "heroku", "caption": "Heroku" }
     ],
     "learning": [
-      { "name": "tailwindcss", "caption": "TailWindCSS" },
       { "name": "jest", "caption": "Jest" },
       { "name": "typescript", "caption": "TypeScript" },
-      { "name": "nextjs", "caption": "NextJS" },
-      { "name": "graphql", "caption": "GraphQL" }
+      { "name": "graphql", "caption": "GraphQL" },
+      { "name": "python", "caption": "Python" },
+      { "name": "godot", "caption": "Godot" }
     ]
   },
   "highlightProject": {
@@ -70,6 +73,22 @@
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
     },
     {
+      "id": "nimbel",
+      "title": "Nimbel",
+      "description": "Portfolio and Blog for the startup Nimbel Software, made with Next.js following jamstack architecture.",
+      "techList": ["nextjs", "styled-components", "tailwindcss"],
+      "projectLink": "https://nimbel.net",
+      "sourceLink": "https://github.com/nimbel-code/portfolio"
+    },
+    {
+      "id": "teslaExposer",
+      "title": "Tesla Spreadsheet",
+      "description": "A Tesla web generated with Google's Spreasheet, create, edit and release directly from a spreadsheet following jamstack architecture.",
+      "techList": ["nextjs", "styled-components", "tailwindcss"],
+      "projectLink": "https://spreadsheet-poc.vercel.app/",
+      "sourceLink": "https://github.com/dastasoft/spreadsheet-poc"
+    },
+    {
       "id": "portfolio",
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
@@ -82,14 +101,6 @@
       "title": "Rank ^ Up",
       "description": "Spanish community of Dota 2 with news, tutorials, gameplays and live broadcast.",
       "techList": ["wordpress", "php", "html", "css"]
-    },
-    {
-      "id": "reactBoilerplateParcel",
-      "title": "React Parcel",
-      "description": "A React boilerplate with Parcel bundler, already configured, fast and ready-to-go.",
-      "techList": ["react", "parcel", "yarn", "styled-components"],
-      "projectLink": "https://dev.to/dastasoft/simple-react-boilerplate-1o4h",
-      "sourceLink": "https://github.com/dastasoft/parcel-react-boilerplate"
     }
   ],
   "professionalExp": [

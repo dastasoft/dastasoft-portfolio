@@ -30,7 +30,7 @@ const ProjectCardBase = ({
           <span className="description">{description}</span>
           <div className="tech">
             {techList.map(tech => (
-              <Icon key={tech} name={tech} caption={tech} />
+              <Icon key={tech} name={tech} caption={tech.split('-')[0]} />
             ))}
           </div>
           {projectLink || sourceLink ? (

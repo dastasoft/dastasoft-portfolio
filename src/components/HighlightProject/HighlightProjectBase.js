@@ -17,7 +17,7 @@ const HighlightProjectBase = ({
 }) => {
   return (
     <section className={className}>
-      <h1>Last Project</h1>
+      <h1>Project Highlighted</h1>
       <div className="content">
         <figure className="mobile-preview">
           <img

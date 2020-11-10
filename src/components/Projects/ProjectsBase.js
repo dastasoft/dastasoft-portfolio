@@ -6,12 +6,16 @@ import CongressCrushPreview from '../../assets/images/congress-crush.png';
 import GrowMeetingPreview from '../../assets/images/grow-meeting.png';
 import RankUpPreview from '../../assets/images/rankup.png';
 import PortfolioPreview from '../../assets/images/portfolio.png';
+import Nimbel from '../../assets/images/nimbel.png';
+import TeslaExposer from '../../assets/images/teslaExposer.png';
 
 const imagePreviews = {
   congressCrush: CongressCrushPreview,
   growMeeting: GrowMeetingPreview,
   rankup: RankUpPreview,
-  portfolio: PortfolioPreview
+  portfolio: PortfolioPreview,
+  nimbel: Nimbel,
+  teslaExposer: TeslaExposer
 };
 
 const ProjectsBase = ({ className, projects }) => {
