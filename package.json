@@ -1,12 +1,12 @@
 {
-  "name": "parcel-react-boilerplate",
+  "name": "dastasoft-portfolio",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "author": "dastasoft",
   "scripts": {
     "start": "parcel --no-cache public/index.html",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/*"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",

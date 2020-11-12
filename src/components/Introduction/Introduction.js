@@ -10,6 +10,11 @@ const Introduction = styled(IntroductionBase)`
   align-items: center;
   justify-content: space-around;
 
+  .custom-typist {
+    display: block;
+    height: 3rem;
+  }
+
   .desc {
     flex-grow: 1;
     padding: 1rem;

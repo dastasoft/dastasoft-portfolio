@@ -22,6 +22,7 @@ const IntroductionBase = ({
             startDelay={200}
             avgTypingDelay={100}
             cursor={{ show: false }}
+            className="custom-typist"
           >
             <b>{nick}</b>
             <Typist.Backspace count={7} delay={500} />
@@ -35,6 +36,7 @@ const IntroductionBase = ({
             startDelay={3500}
             avgTypingDelay={100}
             cursor={{ show: false }}
+            className="custom-typist"
           >
             <b> {place}</b>
           </Typist>
