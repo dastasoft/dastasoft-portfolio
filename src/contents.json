@@ -2,12 +2,12 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Developer Advocate, I love learning, teaching, Japanese culture and rhythm games, self-proclaimed expert curry and ramen taster.",
+    "text": "Full Stack Developer, I love learning, teaching, Japanese culture and rhythm games.",
     "place": "Barcelona"
   },
   "skills": {
     "currentStack": [
-      { "name": "nextjs", "caption": "Next.js" },
+      { "name": "react", "caption": "React" },
       { "name": "react-native", "caption": "React Native" },
       { "name": "firebase", "caption": "Firebase" }
     ],
@@ -15,7 +15,7 @@
       { "name": "html", "caption": "HTML5" },
       { "name": "css", "caption": "CSS3" },
       { "name": "javascript", "caption": "JavaScript" },
-      { "name": "react", "caption": "React" },
+      { "name": "nextjs", "caption": "Next.js" },
       { "name": "redux", "caption": "Redux" },
       { "name": "nodejs", "caption": "NodeJS" },
       { "name": "styled-components", "caption": "Styled" },
@@ -36,7 +36,6 @@
     "learning": [
       { "name": "jest", "caption": "Jest" },
       { "name": "typescript", "caption": "TypeScript" },
-      { "name": "graphql", "caption": "GraphQL" },
       { "name": "python", "caption": "Python" },
       { "name": "godot", "caption": "Godot" }
     ]
@@ -89,6 +88,13 @@
       "sourceLink": "https://github.com/dastasoft/spreadsheet-poc"
     },
     {
+      "id": "copywriting",
+      "title": "Copywriting",
+      "description": "Blazing fast landing page built with Next.js and multilanguage support to advertise copywriting services.",
+      "techList": ["nextjs", "styled-components", "tailwindcss"],
+      "projectLink": "https://copywriting.nimbel.net"
+    },
+    {
       "id": "portfolio",
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
@@ -106,11 +112,11 @@
   "professionalExp": [
     {
       "id": "ancert",
-      "position": "Developer Advocacy",
+      "position": "Full Stack Developer",
       "companyName": "Ancert",
       "contractType": "Full Time",
       "contractDate": {
-        "start": "2019-08-26"
+        "start": "2019-08-01"
       },
       "shortDescription": "Technical analysis, development and training for web applications in the notary sector.",
       "items": [
@@ -140,14 +146,14 @@
     },
     {
       "id": "gft",
-      "position": "Full Stack Analyst Developer",
+      "position": "Full Stack Developer",
       "companyName": "GFT Group",
       "contractType": "Full Time",
       "contractDate": {
-        "start": "2017-11-01",
+        "start": "2015-05-01",
         "end": "2019-08-31"
       },
-      "shortDescription": "Full stack analyst developer for the planning, analysis, development, management and evolution of the digital signature web platform in the bank.",
+      "shortDescription": "Full stack developer for the planning, analysis, development, management and evolution of the digital signature web platform in the bank.",
       "items": [
         "Frontend development and backend services.",
         "Coordination and management of the team, tasks and workloads.",
@@ -166,38 +172,40 @@
         "Java",
         "Spring",
         "Agile",
-        "UML"
-      ]
-    },
-    {
-      "id": "necsia",
-      "position": "Senior Java Developer",
-      "companyName": "Necsia IT Consulting",
-      "contractType": "Full Time",
-      "contractDate": {
-        "start": "2015-05-01",
-        "end": "2017-11-30"
-      },
-      "shortDescription": "Analysis and development for desktop applications and web applications for the banking sector as well as the development of the intranet used by workers in the bank's offices.",
-      "items": [
-        "Development of backend services and the intranet.",
-        "Writing of technical documentation.",
-        "Taking customer requirements.",
-        "Presentation of projects in client.",
-        "Participation in technical and functional meetings.",
-        "Quality control of code, unit tests and end-to-end tests."
-      ],
-      "techList": [
-        "Java",
-        "Spring",
-        "HTML5",
-        "CSS3",
-        "JavaScript",
+        "UML",
         "jQuery",
-        "jQuery UI",
-        "UML"
+        "jQuery UI"
       ]
     },
+    // {
+    //   "id": "necsia",
+    //   "position": "Senior Java Developer",
+    //   "companyName": "Necsia IT Consulting",
+    //   "contractType": "Full Time",
+    //   "contractDate": {
+    //     "start": "2015-05-01",
+    //     "end": "2017-11-30"
+    //   },
+    //   "shortDescription": "Analysis and development for desktop applications and web applications for the banking sector as well as the development of the intranet used by workers in the bank's offices.",
+    //   "items": [
+    //     "Development of backend services and the intranet.",
+    //     "Writing of technical documentation.",
+    //     "Taking customer requirements.",
+    //     "Presentation of projects in client.",
+    //     "Participation in technical and functional meetings.",
+    //     "Quality control of code, unit tests and end-to-end tests."
+    //   ],
+    //   "techList": [
+    //     "Java",
+    //     "Spring",
+    //     "HTML5",
+    //     "CSS3",
+    //     "JavaScript",
+    //     "jQuery",
+    //     "jQuery UI",
+    //     "UML"
+    //   ]
+    // },
     {
       "id": "sigma",
       "position": "Java Developer",
@@ -231,12 +239,11 @@
   "social": [
     {
       "name": "mail",
-      "link": "mailto:dastasoft@gmail.com",
+      "link": "mailto:dastasoft@protonmail.com",
       "custom": "envelope"
     },
-    { "name": "linkedin", "link": "https://www.linkedin.com/in/dastag/" },
+    { "name": "linkedin", "link": "https://www.linkedin.com/in/danielasta/" },
     { "name": "github", "link": "https://github.com/dastasoft" },
-    { "name": "dev", "link": "https://dev.to/dastasoft" },
-    { "name": "twitter", "link": "https://twitter.com/dastasoft" }
+    { "name": "dev", "link": "https://dev.to/dastasoft" }
   ]
 }

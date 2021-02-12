@@ -4,7 +4,7 @@ import { string } from 'prop-types';
 const FooterBase = ({ className }) => {
   return (
     <footer className={className}>
-      <span>by dastasoft @2020</span>
+      <span>by dastasoft @{new Date().getFullYear()}</span>
     </footer>
   );
 };
