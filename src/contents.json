@@ -60,7 +60,8 @@
       "title": "Grow Meeting",
       "description": "Jitsi video chat integration with Websockets to provide real time interactions.",
       "techList": ["react", "netlify", "styled-components", "react-native"],
-      "projectLink": "https://grow-meeting.netlify.app/",
+      "projectLink": "http://grow-meeting.dastasoft.com/",
+      "secondaryLink": "https://grow-meeting.netlify.app/",
       "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
     },
     {
