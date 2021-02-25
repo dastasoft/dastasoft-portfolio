@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /api
-Host: https://dastasoft.netlify.app/
-Sitemap: https://dastasoft.netlify.app/sitemap.xml
+Host: https://portfolio.dastasoft.com/
+Sitemap: https://portfolio.dastasoft.com/sitemap.xml

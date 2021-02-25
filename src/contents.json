@@ -64,6 +64,15 @@
       "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
     },
     {
+      "id": "blog",
+      "title": "My blog about tech",
+      "description": "Personal Blog made with Next.js, supports Dark Mode, optimistic UI, SEO friendly and more.",
+      "techList": ["nextjs", "styled-components"],
+      "projectLink": "https://blog.dastasoft.com/",
+      "secondaryLink": "https://blog-dastasoft.vercel.app",
+      "sourceLink": "https://github.com/dastasoft/blog"
+    },
+    {
       "id": "congressCrush",
       "title": "Congress Crush",
       "description": "Match 3 game about political elections in Spain made with Godot for Android and Web.",
@@ -99,7 +108,8 @@
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
       "techList": ["react", "parcel", "styled-components", "netlify"],
-      "projectLink": "https://dastasoft.netlify.app/",
+      "projectLink": "https://portfolio.dastasoft.com/",
+      "secondaryLink": "https://dastasoft.netlify.app",
       "sourceLink": "https://github.com/dastasoft/dastasoft-portfolio"
     },
     {

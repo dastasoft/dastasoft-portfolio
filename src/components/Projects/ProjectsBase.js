@@ -2,6 +2,7 @@
 import React from 'react';
 
 import ProjectCard from './ProjectCard';
+import BlogPreview from '../../assets/images/blog.png';
 import CongressCrushPreview from '../../assets/images/congress-crush.png';
 import GrowMeetingPreview from '../../assets/images/grow-meeting.png';
 import RankUpPreview from '../../assets/images/rankup.png';
@@ -11,6 +12,7 @@ import Nimbel from '../../assets/images/nimbel.png';
 import TeslaExposer from '../../assets/images/teslaExposer.png';
 
 const imagePreviews = {
+  blog: BlogPreview,
   congressCrush: CongressCrushPreview,
   growMeeting: GrowMeetingPreview,
   rankup: RankUpPreview,
