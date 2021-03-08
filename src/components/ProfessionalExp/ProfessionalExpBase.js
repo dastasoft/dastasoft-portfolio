@@ -25,7 +25,7 @@ const ProfessionalExpBase = ({ className, professionalExp }) => {
     if (!contractDate.end && !contractDate.start) return null;
 
     const totalDuration = moment.duration(
-      moment(!contractDate.end ? new Date() : contractDate.end).diff(
+      moment(!contractDate.end ? moment().format('L') : contractDate.end).diff(
         moment(contractDate.start)
       )
     );
@@ -37,6 +37,9 @@ const ProfessionalExpBase = ({ className, professionalExp }) => {
 
     if (experience.months + months >= 12) {
       experience.years++;
+      experience.months = experience.months + months - 12;
+    } else {
+      experience.months += months;
     }
 
     return `${getYear(years)} ${getMonth(years, months)} ${
