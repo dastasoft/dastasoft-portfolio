@@ -37,8 +37,6 @@ const ProfessionalExpBase = ({ className, professionalExp }) => {
 
     if (experience.months + months >= 12) {
       experience.years++;
-    } else {
-      experience.months += months;
     }
 
     return `${getYear(years)} ${getMonth(years, months)} ${
