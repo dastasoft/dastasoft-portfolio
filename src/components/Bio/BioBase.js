@@ -7,12 +7,12 @@ const BioBase = ({ className }) => {
       <h1>About Me</h1>
       <div>
         <p>
-          Hi, I&apos;m Daniel and I live in Sant Cugat del Vallès (Barcelona),
-          I&apos;ve been making websites, applications, games and learning the
-          ins and outs of technology since I can remember. I love learning,
-          teaching what I have learned and approaching projects from an agile
-          vision and from the user&apos;s point of view maintaining the quality
-          of the code following the best practices.
+          Hi, I&apos;m Daniel and I live in Barcelona, I&apos;ve been making
+          websites, applications, games and learning the ins and outs of
+          technology since I can remember. I love learning, teaching what I have
+          learned and approaching projects from an agile vision and from the
+          user&apos;s point of view maintaining the quality of the code
+          following the best practices.
         </p>
         <br />
 
