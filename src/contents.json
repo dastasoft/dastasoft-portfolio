@@ -117,7 +117,8 @@
       "id": "rankup",
       "title": "Rank ^ Up",
       "description": "Spanish community of Dota 2 with news, tutorials, gameplays and live broadcast.",
-      "techList": ["wordpress", "php", "html", "css"]
+      "techList": ["wordpress", "php", "html", "css"],
+      "projectLink": "https://web.archive.org/web/20150114065601/http://rankup.es/"
     }
   ],
   "professionalExp": [
