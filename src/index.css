@@ -19,8 +19,16 @@ html {
   box-sizing: inherit;
 }
 
+html,
 body {
-  font-family: Anonymous Pro, monospace;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
   background-color: var(--main);
   color: var(--contrast);
 }
@@ -28,11 +36,11 @@ body {
 section {
   width: 100%;
   padding: 1rem;
+}
 
-  h1 {
-    text-align: center;
-    padding: 0.5rem 0;
-    background-color: var(--highligh);
-    margin: 0 -1rem 1rem -1rem;
-  }
+section h1 {
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: var(--highligh);
+  margin: 0 -1rem 1rem -1rem;
 }

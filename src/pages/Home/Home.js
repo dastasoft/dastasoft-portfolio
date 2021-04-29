@@ -9,7 +9,6 @@ import HighlightProject from '../../components/HighlightProject';
 import Projects from '../../components/Projects';
 import ProfessionalExp from '../../components/ProfessionalExp';
 import content from '../../contents.json';
-import './Home.scss';
 
 const Home = () => {
   const {
@@ -18,7 +17,7 @@ const Home = () => {
     highlightProject,
     projects,
     social,
-    professionalExp
+    professionalExp,
   } = content;
 
   return (

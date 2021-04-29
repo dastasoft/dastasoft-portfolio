@@ -105,6 +105,15 @@
       "projectLink": "https://copywriting.nimbel.net"
     },
     {
+      "id": "handyTools",
+      "title": "Handy Tools",
+      "description": "A collection of web tools to make your life easier. PWA made with Next.js and Chakra UI. ",
+      "techList": ["nextjs", "styled-components"],
+      "projectLink": "https://handy-tools.dastasoft.com/",
+      "secondaryLink": "https://handy-tools.vercel.app",
+      "sourceLink": "https://github.com/dastasoft/handy-tools"
+    },
+    {
       "id": "portfolio",
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
