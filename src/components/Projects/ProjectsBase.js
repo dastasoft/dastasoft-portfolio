@@ -9,6 +9,7 @@ import RankUpPreview from '../../assets/images/rankup.png';
 import CopywritingPreview from '../../assets/images/copywriting.png';
 import HandyTools from '../../assets/images/handy-tools.png';
 import PortfolioPreview from '../../assets/images/portfolio.png';
+import ApartmentfyPreview from '../../assets/images/apartmentfy.png';
 import Nimbel from '../../assets/images/nimbel.png';
 import TeslaExposer from '../../assets/images/teslaExposer.png';
 
@@ -22,6 +23,7 @@ const imagePreviews = {
   portfolio: PortfolioPreview,
   nimbel: Nimbel,
   teslaExposer: TeslaExposer,
+  apartmentfy: ApartmentfyPreview,
 };
 
 const ProjectsBase = ({ className, projects }) => {

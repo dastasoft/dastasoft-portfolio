@@ -2,22 +2,22 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Full Stack Developer, I love learning, teaching, Japanese culture and rhythm games.",
+    "text": "Full Stack Developer, I love learning, teaching, Japanese culture, rhythm games and talking about tech.",
     "place": "Barcelona"
   },
   "skills": {
     "currentStack": [
       { "name": "react", "caption": "React" },
-      { "name": "react-native", "caption": "React Native" },
+      { "name": "nodejs", "caption": "NodeJS" },
       { "name": "firebase", "caption": "Firebase" }
     ],
     "other": [
       { "name": "html", "caption": "HTML5" },
       { "name": "css", "caption": "CSS3" },
       { "name": "javascript", "caption": "JavaScript" },
+      { "name": "react-native", "caption": "React Native" },
       { "name": "nextjs", "caption": "Next.js" },
       { "name": "redux", "caption": "Redux" },
-      { "name": "nodejs", "caption": "NodeJS" },
       { "name": "styled-components", "caption": "Styled" },
       { "name": "tailwindcss", "caption": "TailWindCSS" },
       { "name": "gatsby", "caption": "Gatsby" },
@@ -55,6 +55,15 @@
     "sourceLink": "https://github.com/React-Jedis/covid-radar"
   },
   "projects": [
+    {
+      "id": "apartmentfy",
+      "title": "Apartmentfy",
+      "description": "This proof of concept is made with Next.js, MongoDB Atlas and Chakra UI. Enjoy the power of Static Site CDN and Serverless DB.",
+      "techList": ["nextjs", "mongodb", "chakra-ui"],
+      "projectLink": "https://apartmentfy.dastasoft.com/",
+      "secondaryLink": "https://apartmentfy.vercel.app/",
+      "sourceLink": "https://github.com/dastasoft/airbnb-nextjs-mongodb"
+    },
     {
       "id": "growMeeting",
       "title": "Grow Meeting",
