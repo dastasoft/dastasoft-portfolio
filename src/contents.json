@@ -2,7 +2,7 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Full Stack Developer, I love learning, teaching, Japanese culture, rhythm games and talking about tech.",
+    "text": "Full Stack Developer specialized in React and Node. I love learning and teaching technology on my blog. Currently learning Japanese よろしくおねがいします。",
     "place": "Barcelona"
   },
   "skills": {
@@ -127,8 +127,8 @@
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
       "techList": ["react", "parcel", "styled-components", "netlify"],
-      "projectLink": "https://portfolio.dastasoft.com/",
-      "secondaryLink": "https://dastasoft.netlify.app",
+      "projectLink": "https://dastasoft.com/",
+      "secondaryLink": "https://dastasoft.vercel.app",
       "sourceLink": "https://github.com/dastasoft/dastasoft-portfolio"
     },
     {
