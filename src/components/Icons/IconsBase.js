@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { string } from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Android from './assets/android.svg';
 import CPPIcon from './assets/cpp.svg';
+import CSharpIcon from './assets/csharp.svg';
 import CSSIcon from './assets/css.svg';
+import CypressIcon from './assets/cypress.svg';
 import Electron from './assets/electron.svg';
 import FirebaseIcon from './assets/firebase.svg';
 import GatsbyIcon from './assets/gatsby.svg';
+import GCPIcon from './assets/gcp.svg';
 import GitIcon from './assets/git.svg';
-import Github from './assets/github.svg';
 import GodotIcon from './assets/godot.svg';
 import GraphQLIcon from './assets/graphql.svg';
 import HerokuIcon from './assets/heroku.svg';
@@ -17,8 +20,10 @@ import IonicIcon from './assets/ionic.svg';
 import JavaIcon from './assets/java.svg';
 import JavascriptIcon from './assets/javascript.svg';
 import Jest from './assets/jest.svg';
+import MarkdownIcon from './assets/markdown.svg';
+import MongoDBIcon from './assets/mongodb.svg';
 import NetlifyIcon from './assets/netlify.svg';
-import NextJS from './assets/nextjs.svg';
+import NextJS from './assets/next.svg';
 import NodeJsIcon from './assets/nodejs.svg';
 import NPMIcon from './assets/npm.svg';
 import Parcel from './assets/parcel.png';
@@ -27,6 +32,7 @@ import PythonIcon from './assets/python.svg';
 import ReactIcon from './assets/react.svg';
 import ReactNative from './assets/react-native.svg';
 import ReduxIcon from './assets/redux-action.svg';
+import SASSIcon from './assets/sass.svg';
 import StorybookIcon from './assets/storybook.svg';
 import StyledComponents from './assets/styled-components.png';
 import TailWindCSSIcon from './assets/tailwindcss.svg';
@@ -65,7 +71,7 @@ const IconsBase = ({ className, name, caption }) => {
         element = <GitIcon />;
         break;
       case 'github':
-        element = <Github />;
+        element = <FontAwesomeIcon icon={['fab', 'github']} />;
         break;
       case 'godot':
         element = <GodotIcon />;
@@ -145,6 +151,30 @@ const IconsBase = ({ className, name, caption }) => {
       case 'yarn':
         element = <YarnIcon />;
         break;
+      case 'csharp':
+        element = <CSharpIcon />;
+        break;
+      case 'mongodb':
+        element = <MongoDBIcon />;
+        break;
+      case 'markdown':
+        element = <MarkdownIcon />;
+        break;
+      case 'sass':
+        element = <SASSIcon />;
+        break;
+      case 'gcp':
+        element = <GCPIcon />;
+        break;
+      case 'aws':
+        element = <FontAwesomeIcon icon={['fab', 'aws']} color="orange" />;
+        break;
+      case 'unity':
+        element = <FontAwesomeIcon icon={['fab', 'unity']} />;
+        break;
+      case 'cypress':
+        element = <CypressIcon />;
+        break;
       default:
         element = null;
         break;
@@ -164,12 +194,12 @@ const IconsBase = ({ className, name, caption }) => {
 IconsBase.propTypes = {
   className: string.isRequired,
   name: string,
-  caption: string
+  caption: string,
 };
 
 IconsBase.defaultProps = {
   name: '',
-  captions: ''
+  captions: '',
 };
 
 export default IconsBase;

@@ -8,6 +8,7 @@ import SigmaLogo from '../../assets/images/sigma.png';
 import NecsiaLogo from '../../assets/images/necsia.png';
 import GFTLogo from '../../assets/images/gft.png';
 import AncertLogo from '../../assets/images/ancert.png';
+import EdpuzzleLogo from '../../assets/images/edpuzzle.png';
 import { getYear, getMonth } from '../../utils/parseDate';
 import TotalExperience from './TotalExperience';
 
@@ -15,13 +16,14 @@ const companyLogos = {
   sigma: SigmaLogo,
   necsia: NecsiaLogo,
   gft: GFTLogo,
-  ancert: AncertLogo
+  ancert: AncertLogo,
+  edpuzzle: EdpuzzleLogo,
 };
 
 const ProfessionalExpBase = ({ className, professionalExp }) => {
   const experience = { years: 0, months: 0 };
 
-  const getTotalTime = contractDate => {
+  const getTotalTime = (contractDate) => {
     if (!contractDate.end && !contractDate.start) return null;
 
     const totalDuration = moment.duration(
@@ -53,7 +55,7 @@ const ProfessionalExpBase = ({ className, professionalExp }) => {
       <TotalExperience experience={experience} />
       {/* Tech filter */}
       <ul className="job-list">
-        {professionalExp.map(job => (
+        {professionalExp.map((job) => (
           <JobItem
             key={job.companyName}
             companyIcon={companyLogos[job.id]}

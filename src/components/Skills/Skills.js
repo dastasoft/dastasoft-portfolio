@@ -11,9 +11,9 @@ const Skills = styled(SkillsBase)`
   }
 
   .current-stack {
-    margin: 0.5rem 0 0.8rem 0;
+    margin: 0.5rem 0 1.5rem 0;
     display: grid;
-    grid-template-columns: repeat(3, minmax(5rem, 9rem));
+    grid-template-columns: repeat(4, minmax(5rem, 7.5rem));
     grid-gap: 1em;
   }
 
