@@ -2,7 +2,7 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Senior Software Engineer specialized in React and Node. I love learning and teaching technology on my blog. Currently learning Japanese よろしくおねがいします。",
+    "text": "Full Stack Developer specialized in React and Node. I love learning and teaching technology on my blog. Currently learning Japanese よろしくおねがいします。",
     "place": "Barcelona"
   },
   "skills": {
@@ -150,7 +150,7 @@
       "companyName": "Edpuzzle",
       "contractType": "Full Time",
       "contractDate": {
-        "start": "2021-09-10"
+        "start": "2021-09-13"
       },
       "shortDescription": "",
       "items": [],
@@ -236,35 +236,6 @@
         "jQuery UI"
       ]
     },
-    // {
-    //   "id": "necsia",
-    //   "position": "Senior Java Developer",
-    //   "companyName": "Necsia IT Consulting",
-    //   "contractType": "Full Time",
-    //   "contractDate": {
-    //     "start": "2015-05-01",
-    //     "end": "2017-11-30"
-    //   },
-    //   "shortDescription": "Analysis and development for desktop applications and web applications for the banking sector as well as the development of the intranet used by workers in the bank's offices.",
-    //   "items": [
-    //     "Development of backend services and the intranet.",
-    //     "Writing of technical documentation.",
-    //     "Taking customer requirements.",
-    //     "Presentation of projects in client.",
-    //     "Participation in technical and functional meetings.",
-    //     "Quality control of code, unit tests and end-to-end tests."
-    //   ],
-    //   "techList": [
-    //     "Java",
-    //     "Spring",
-    //     "HTML5",
-    //     "CSS3",
-    //     "JavaScript",
-    //     "jQuery",
-    //     "jQuery UI",
-    //     "UML"
-    //   ]
-    // },
     {
       "id": "sigma",
       "position": "Java Developer",
