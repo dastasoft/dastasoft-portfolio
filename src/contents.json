@@ -45,43 +45,48 @@
     ]
   },
   "highlightProject": {
-    "title": "Covid Radar",
-    "description": "A simple predictive model and tracker for COVID-19 Spain cases.",
-    "techList": ["react", "gatsby", "gcp", "netlify", "npm"],
+    "title": "Grow Meeting",
+    "description": "Jitsi video chat integration with Websockets to provide real time interactions.",
+    "techList": ["react", "netlify", "styled-components", "react-native"],
     "longDescription": [
       "ReactJS",
-      "GatsbyJS",
-      "Firebase / Firestore / Cloud Functions",
+      "Styled Components",
       "Netlify",
-      "NPM"
+      "Express",
+      "Socket.io"
     ],
-    "projectLink": "https://covid-radar.xyz/",
-    "sourceLink": "https://github.com/React-Jedis/covid-radar"
+    "projectLink": "http://grow-meeting.dastasoft.com/",
+    "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
   },
   "projects": [
     {
       "id": "apartmentfy",
       "title": "Apartmentfy",
       "description": "This proof of concept is made with Next.js, MongoDB Atlas and Chakra UI. Enjoy the power of Static Site CDN and Serverless DB.",
-      "techList": ["nextjs", "mongodb", "aws"],
+      "techList": ["react", "nextjs", "mongodb", "aws"],
       "projectLink": "https://apartmentfy.dastasoft.com/",
       "secondaryLink": "https://apartmentfy.vercel.app/",
       "sourceLink": "https://github.com/dastasoft/airbnb-nextjs-mongodb"
     },
     {
-      "id": "growMeeting",
-      "title": "Grow Meeting",
-      "description": "Jitsi video chat integration with Websockets to provide real time interactions.",
-      "techList": ["react", "netlify", "styled-components", "react-native"],
-      "projectLink": "http://grow-meeting.dastasoft.com/",
-      "secondaryLink": "https://grow-meeting.netlify.app/",
-      "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
+      "id": "covidRadar",
+      "title": "Covid Radar",
+      "description": "A simple predictive model and tracker for COVID-19 Spain cases.",
+      "techList": [
+        "react",
+        "gatsby",
+        "firebase",
+        "netlify",
+        "styled-components"
+      ],
+      "projectLink": "https://covid-radar.netlify.app/",
+      "sourceLink": "https://github.com/React-Jedis/covid-radar"
     },
     {
       "id": "blog",
       "title": "My blog about tech",
       "description": "Personal Blog made with Next.js, supports Dark Mode, optimistic UI, SEO friendly and more.",
-      "techList": ["nextjs", "styled-components"],
+      "techList": ["react", "nextjs", "styled-components"],
       "projectLink": "https://blog.dastasoft.com/",
       "secondaryLink": "https://blog-dastasoft.vercel.app",
       "sourceLink": "https://github.com/dastasoft/blog"
@@ -90,15 +95,22 @@
       "id": "congressCrush",
       "title": "Congress Crush",
       "description": "Match 3 game about political elections in Spain made with Godot for Android and Web.",
-      "techList": ["godot", "python", "android", "react"],
+      "techList": ["godot", "python", "android", "react", "css"],
       "projectLink": "http://congress-crush.dastasoft.com/",
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
+    },
+    {
+      "id": "copywriting",
+      "title": "Copywriting",
+      "description": "Blazing fast landing page built with Next.js and multilanguage support to advertise copywriting services.",
+      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
+      "projectLink": "https://copywriting.nimbel.net"
     },
     {
       "id": "nimbel",
       "title": "Nimbel",
       "description": "Portfolio and Blog for the startup Nimbel Software, made with Next.js following jamstack architecture.",
-      "techList": ["nextjs", "styled-components", "tailwindcss"],
+      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
       "projectLink": "https://nimbel.net",
       "sourceLink": "https://github.com/nimbel-code/portfolio"
     },
@@ -106,22 +118,23 @@
       "id": "teslaExposer",
       "title": "Tesla Spreadsheet",
       "description": "A Tesla web generated with Google's Spreasheet, create, edit and release directly from a spreadsheet following jamstack architecture.",
-      "techList": ["nextjs", "styled-components", "tailwindcss"],
+      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
       "projectLink": "https://spreadsheet-poc.vercel.app/",
       "sourceLink": "https://github.com/dastasoft/spreadsheet-poc"
     },
     {
-      "id": "copywriting",
-      "title": "Copywriting",
-      "description": "Blazing fast landing page built with Next.js and multilanguage support to advertise copywriting services.",
-      "techList": ["nextjs", "styled-components", "tailwindcss"],
-      "projectLink": "https://copywriting.nimbel.net"
+      "id": "pokemonTCGShop",
+      "title": "Pokemon TCG Shop",
+      "description": "Web app to check and search Pokemon Trading Card Game card prices, proof of concept made to teach Redux Toolkit.",
+      "techList": ["react", "nextjs", "typescript", "redux", "css"],
+      "projectLink": "https://redux-pokemon-tcg-shop.dastasoft.com/",
+      "sourceLink": "https://github.com/dastasoft/redux-pokemon-tcg-shop"
     },
     {
       "id": "handyTools",
       "title": "Handy Tools",
-      "description": "A collection of web tools to make your life easier. PWA made with Next.js and Chakra UI. ",
-      "techList": ["nextjs", "styled-components"],
+      "description": "A collection of web tools to make your life easier. PWA made with Next.js and Chakra UI. Made to teach Chakra UI.",
+      "techList": ["react", "nextjs", "css"],
       "projectLink": "https://handy-tools.dastasoft.com/",
       "secondaryLink": "https://handy-tools.vercel.app",
       "sourceLink": "https://github.com/dastasoft/handy-tools"
@@ -159,12 +172,16 @@
         "React Native",
         "Redux",
         "Jest",
-        "Flexbox",
-        "Grid",
+        "Cypress",
         "JavaScript ES6+",
         "Node.js",
+        "Express",
         "MongoDB",
-        "AWS"
+        "Redis",
+        "Mongoose",
+        "AWS",
+        "Webpack",
+        "Storybook"
       ]
     },
     {
@@ -269,11 +286,12 @@
   "social": [
     {
       "name": "mail",
-      "link": "mailto:contact@dastasoft.com",
+      "link": "mailto:dastasoft@protonmail.com",
       "custom": "envelope"
     },
     { "name": "linkedin", "link": "https://www.linkedin.com/in/dastasoft/" },
     { "name": "github", "link": "https://github.com/dastasoft" },
+    { "name": "twitter", "link": "https://twitter.com/dastasoft" },
     { "name": "dev", "link": "https://dev.to/dastasoft" }
   ]
 }

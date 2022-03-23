@@ -12,6 +12,8 @@ import PortfolioPreview from '../../assets/images/portfolio.png';
 import ApartmentfyPreview from '../../assets/images/apartmentfy.png';
 import Nimbel from '../../assets/images/nimbel.png';
 import TeslaExposer from '../../assets/images/teslaExposer.png';
+import CovidRadar from '../../assets/images/covidRadar.png';
+import PokemonTCGShop from '../../assets/images/pokemonTCGShop.png';
 
 const imagePreviews = {
   blog: BlogPreview,
@@ -24,6 +26,8 @@ const imagePreviews = {
   nimbel: Nimbel,
   teslaExposer: TeslaExposer,
   apartmentfy: ApartmentfyPreview,
+  covidRadar: CovidRadar,
+  pokemonTCGShop: PokemonTCGShop,
 };
 
 const ProjectsBase = ({ className, projects }) => {
