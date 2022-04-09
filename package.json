@@ -15,7 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@svgr/parcel-plugin-svgr": "^5.3.1",
     "animate.css": "^4.0.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
