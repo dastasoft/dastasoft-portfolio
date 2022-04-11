@@ -93,7 +93,7 @@
       "id": "congressCrush",
       "title": "Congress Crush",
       "description": "Match 3 game about political elections in Spain made with Godot for Android and Web.",
-      "techList": ["godot", "python", "android", "react", "css"],
+      "techList": ["godot", "android", "react", "css"],
       "projectLink": "http://congress-crush.dastasoft.com/",
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
     },
