@@ -42,6 +42,10 @@ const JobItem = styled(JobItemBase)`
     }
   }
 
+  a {
+    color: inherit;
+  }
+
   @media screen and (min-width: 660px) {
     .company-icon {
       display: block;

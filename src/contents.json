@@ -21,27 +21,25 @@
       { "name": "nextjs", "caption": "Next.js" },
       { "name": "redux", "caption": "Redux" },
       { "name": "jest", "caption": "Jest" },
-      { "name": "styled-components", "caption": "Styled" },
-      { "name": "tailwindcss", "caption": "TailWindCSS" },
-      { "name": "gatsby", "caption": "Gatsby" },
+      { "name": "sass", "caption": "SASS" },
+      { "name": "styled-components", "caption": "styled" },
+      { "name": "tailwindcss", "caption": "TailwindCSS" },
+      { "name": "sql", "caption": "SQL" },
       { "name": "java", "caption": "Java" },
-      { "name": "cpp", "caption": "C++" },
       { "name": "php", "caption": "PHP" },
       { "name": "wordpress", "caption": "Wordpress" }
     ],
     "tools": [
+      { "name": "docker", "caption": "Docker" },
       { "name": "electron", "caption": "Electron" },
-      { "name": "storybook", "caption": "Storybook" },
-      { "name": "github", "caption": "Github" },
-      { "name": "netlify", "caption": "Netlify" },
-      { "name": "heroku", "caption": "Heroku" }
+      { "name": "figma", "caption": "Figma" },
+      { "name": "i18n", "caption": "I18N" },
+      { "name": "storybook", "caption": "Storybook" }
     ],
     "learning": [
-      { "name": "gcp", "caption": "GCP" },
       { "name": "cypress", "caption": "Cypress" },
-      { "name": "csharp", "caption": "C#" },
-      { "name": "godot", "caption": "Godot" },
-      { "name": "unity", "caption": "Unity" }
+      { "name": "graphql", "caption": "GraphQL" },
+      { "name": "redis", "caption": "Redis" }
     ]
   },
   "highlightProject": {
@@ -161,12 +159,16 @@
       "id": "edpuzzle",
       "position": "Senior Software Engineer",
       "companyName": "Edpuzzle",
+      "companyURL": "https://edpuzzle.com/",
       "contractType": "Full Time",
       "contractDate": {
         "start": "2021-09-13"
       },
-      "shortDescription": "",
-      "items": [],
+      "shortDescription": "Project management, team coordination and implementation of new features in front end, back end and mobile.",
+      "items": [
+        "Created the necessary architecture to deliver the web and mobile apps in any language with a few steps.",
+        "Unit, Integration and E2E testing development."
+      ],
       "techList": [
         "React",
         "React Native",
@@ -181,13 +183,15 @@
         "Mongoose",
         "AWS",
         "Webpack",
-        "Storybook"
+        "Hexagonal Architecture",
+        "Domain-Driven Design"
       ]
     },
     {
       "id": "ancert",
       "position": "Full Stack Developer",
       "companyName": "Ancert",
+      "companyURL": "https://www.ancert.com",
       "contractType": "Full Time",
       "contractDate": {
         "start": "2019-08-26",
@@ -224,6 +228,7 @@
       "id": "gft",
       "position": "Full Stack Developer",
       "companyName": "GFT Group",
+      "companyURL": "https://www.gft.com/",
       "contractType": "Full Time",
       "contractDate": {
         "start": "2015-05-01",
@@ -257,6 +262,7 @@
       "id": "sigma",
       "position": "Java Developer",
       "companyName": "Sigma AIE",
+      "companyURL": "https://www.sigmaaie.org",
       "contractType": "Full Time",
       "contractDate": {
         "start": "2012-01-01",

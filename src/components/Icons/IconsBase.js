@@ -7,7 +7,9 @@ import CPPIcon from './assets/cpp.svg';
 import CSharpIcon from './assets/csharp.svg';
 import CSSIcon from './assets/css.svg';
 import CypressIcon from './assets/cypress.svg';
+import DockerIcon from './assets/docker.svg';
 import Electron from './assets/electron.svg';
+import FigmaIcon from './assets/figma.svg';
 import FirebaseIcon from './assets/firebase.svg';
 import GatsbyIcon from './assets/gatsby.svg';
 import GCPIcon from './assets/gcp.svg';
@@ -16,6 +18,7 @@ import GodotIcon from './assets/godot.svg';
 import GraphQLIcon from './assets/graphql.svg';
 import HerokuIcon from './assets/heroku.svg';
 import HTMLIcon from './assets/html.svg';
+import I18NIcon from './assets/i18n.svg';
 import IonicIcon from './assets/ionic.svg';
 import JavaIcon from './assets/java.svg';
 import JavascriptIcon from './assets/javascript.svg';
@@ -26,13 +29,14 @@ import NetlifyIcon from './assets/netlify.svg';
 import NextJS from './assets/next.svg';
 import NodeJsIcon from './assets/nodejs.svg';
 import NPMIcon from './assets/npm.svg';
-import Parcel from './assets/parcel.png';
+import Parcel from './assets/parcel.svg';
 import PHPIcon from './assets/php.svg';
-import PythonIcon from './assets/python.svg';
 import ReactIcon from './assets/react.svg';
 import ReactNative from './assets/react-native.svg';
+import RedisIcon from './assets/redis.svg';
 import ReduxIcon from './assets/redux-action.svg';
 import SASSIcon from './assets/sass.svg';
+import SQLIcon from './assets/database.svg';
 import StorybookIcon from './assets/storybook.svg';
 import StyledComponents from './assets/styled-components.png';
 import TailWindCSSIcon from './assets/tailwindcss.svg';
@@ -110,13 +114,10 @@ const IconsBase = ({ className, name, caption }) => {
         element = <NPMIcon />;
         break;
       case 'parcel':
-        element = <img src={Parcel} alt="parcel" />;
+        element = <Parcel />;
         break;
       case 'php':
         element = <PHPIcon />;
-        break;
-      case 'python':
-        element = <PythonIcon />;
         break;
       case 'react':
         element = <ReactIcon />;
@@ -131,7 +132,13 @@ const IconsBase = ({ className, name, caption }) => {
         element = <StorybookIcon />;
         break;
       case 'styled-components':
-        element = <img src={StyledComponents} alt="styled-components" />;
+        element = (
+          <img
+            src={StyledComponents}
+            alt="styled-components"
+            style={{ maxHeight: '70px', maxWidth: '70px' }}
+          />
+        );
         break;
       case 'tailwindcss':
         element = <TailWindCSSIcon />;
@@ -174,6 +181,24 @@ const IconsBase = ({ className, name, caption }) => {
         break;
       case 'cypress':
         element = <CypressIcon />;
+        break;
+      case 'redis':
+        element = <RedisIcon />;
+        break;
+      case 'sql':
+        element = <SQLIcon />;
+        break;
+      case 'docker':
+        element = <DockerIcon />;
+        break;
+      case 'figma':
+        element = <FigmaIcon />;
+        break;
+      case 'i18n':
+        element = <I18NIcon />;
+        break;
+      case 'sass':
+        element = <SASSIcon />;
         break;
       default:
         element = null;

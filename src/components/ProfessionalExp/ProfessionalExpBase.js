@@ -5,7 +5,6 @@ import moment from 'moment';
 
 import JobItem from './JobItem';
 import SigmaLogo from '../../assets/images/sigma.png';
-import NecsiaLogo from '../../assets/images/necsia.png';
 import GFTLogo from '../../assets/images/gft.png';
 import AncertLogo from '../../assets/images/ancert.png';
 import EdpuzzleLogo from '../../assets/images/edpuzzle.png';
@@ -14,7 +13,6 @@ import TotalExperience from './TotalExperience';
 
 const companyLogos = {
   sigma: SigmaLogo,
-  necsia: NecsiaLogo,
   gft: GFTLogo,
   ancert: AncertLogo,
   edpuzzle: EdpuzzleLogo,
