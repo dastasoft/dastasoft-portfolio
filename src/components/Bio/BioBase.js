@@ -24,7 +24,7 @@ const BioBase = ({ className }) => {
         <br />
 
         <p>
-          I have been working as a programmer and analyst for 9 years in
+          I have been working as a programmer and analyst for 10 years in
           different positions in the public and private sector, I have worked
           providing technology solutions for universities, banking and the
           notary sector, performing the roles of Java programmer, analyst and
@@ -60,7 +60,7 @@ const BioBase = ({ className }) => {
 };
 
 BioBase.propTypes = {
-  className: string.isRequired
+  className: string.isRequired,
 };
 
 export default BioBase;

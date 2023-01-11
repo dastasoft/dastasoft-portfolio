@@ -10,13 +10,12 @@
       { "name": "react", "caption": "React" },
       { "name": "nodejs", "caption": "Node" },
       { "name": "mongodb", "caption": "MongoDB" },
-      { "name": "aws", "caption": "AWS" }
+      { "name": "typescript", "caption": "TypeScript" }
     ],
     "other": [
       { "name": "html", "caption": "HTML5" },
       { "name": "css", "caption": "CSS3" },
       { "name": "javascript", "caption": "JavaScript" },
-      { "name": "typescript", "caption": "TypeScript" },
       { "name": "react-native", "caption": "R.Native" },
       { "name": "nextjs", "caption": "Next.js" },
       { "name": "redux", "caption": "Redux" },
@@ -27,19 +26,21 @@
       { "name": "sql", "caption": "SQL" },
       { "name": "java", "caption": "Java" },
       { "name": "php", "caption": "PHP" },
-      { "name": "wordpress", "caption": "Wordpress" }
+      { "name": "wordpress", "caption": "Wordpress" },
+      { "name": "firebase", "caption": "Firebase" }
     ],
     "tools": [
       { "name": "docker", "caption": "Docker" },
       { "name": "electron", "caption": "Electron" },
       { "name": "figma", "caption": "Figma" },
       { "name": "i18n", "caption": "I18N" },
-      { "name": "storybook", "caption": "Storybook" }
+      { "name": "aws", "caption": "AWS" }
     ],
     "learning": [
       { "name": "cypress", "caption": "Cypress" },
       { "name": "graphql", "caption": "GraphQL" },
-      { "name": "redis", "caption": "Redis" }
+      { "name": "redis", "caption": "Redis" },
+      { "name": "godot", "caption": "Godot" }
     ]
   },
   "highlightProject": {
@@ -57,6 +58,14 @@
     "sourceLink": "https://github.com/dastasoft/project-holo/tree/GrowMeeting"
   },
   "projects": [
+    {
+      "id": "kanaTrainer",
+      "title": "Kana Trainer",
+      "description": "Start your Japanese learning journey and learn two syllabaries at once. Practice with a flashcard quiz to train every recognition method.",
+      "techList": ["react", "typescript", "nextjs", "tailwindcss"],
+      "projectLink": "https://kana-trainer.dastasoft.com/",
+      "sourceLink": "https://github.com/dastasoft/kana-trainer"
+    },
     {
       "id": "apartmentfy",
       "title": "Apartmentfy",
@@ -105,20 +114,20 @@
       "projectLink": "https://copywriting.nimbel.net"
     },
     {
+      "id": "animeTrailers",
+      "title": "Anime Trailers",
+      "description": "AnimeTrailers let's you to browse, find favorite and check where to watch anime shows. Fictional product as example project to teach TypeScript in React.",
+      "techList": ["react", "nextjs", "styled-components", "typescript"],
+      "projectLink": "https://animetrailers.dastasoft.com/",
+      "sourceLink": "https://github.com/dastasoft/animetrailers"
+    },
+    {
       "id": "nimbel",
       "title": "Nimbel",
       "description": "Portfolio and Blog for the startup Nimbel Software, made with Next.js following jamstack architecture.",
       "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
       "projectLink": "https://nimbel.net",
       "sourceLink": "https://github.com/nimbel-code/portfolio"
-    },
-    {
-      "id": "teslaExposer",
-      "title": "Tesla Spreadsheet",
-      "description": "A Tesla web generated with Google's Spreasheet, create, edit and release directly from a spreadsheet following jamstack architecture.",
-      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
-      "projectLink": "https://spreadsheet-poc.vercel.app/",
-      "sourceLink": "https://github.com/dastasoft/spreadsheet-poc"
     },
     {
       "id": "pokemonTCGShop",

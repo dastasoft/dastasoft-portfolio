@@ -11,7 +11,8 @@ import HandyTools from '../../assets/images/handy-tools.png';
 import PortfolioPreview from '../../assets/images/portfolio.png';
 import ApartmentfyPreview from '../../assets/images/apartmentfy.png';
 import Nimbel from '../../assets/images/nimbel.png';
-import TeslaExposer from '../../assets/images/teslaExposer.png';
+import KanaTrainer from '../../assets/images/kanaTrainer.png';
+import AnimeTrailers from '../../assets/images/animeTrailers.png';
 import CovidRadar from '../../assets/images/covidRadar.png';
 import PokemonTCGShop from '../../assets/images/pokemonTCGShop.png';
 
@@ -24,7 +25,8 @@ const imagePreviews = {
   handyTools: HandyTools,
   portfolio: PortfolioPreview,
   nimbel: Nimbel,
-  teslaExposer: TeslaExposer,
+  kanaTrainer: KanaTrainer,
+  animeTrailers: AnimeTrailers,
   apartmentfy: ApartmentfyPreview,
   covidRadar: CovidRadar,
   pokemonTCGShop: PokemonTCGShop,
