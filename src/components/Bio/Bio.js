@@ -15,13 +15,18 @@ const Bio = styled(BioBase)`
 
     p {
       font-size: calc(0.6rem + 1vmin);
-      line-height: 1.6rem;
+      line-height: 2rem;
       color: var(--contrast);
+      margin-bottom: 2rem;
 
       b {
         font-weight: normal;
         color: var(--highligh);
       }
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
     }
   }
 
