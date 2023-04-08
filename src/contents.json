@@ -2,8 +2,8 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Full Stack Developer specialized in React and Node. I love learning and teaching technology on my blog. Currently learning Japanese よろしくおねがいします。",
-    "place": "Barcelona"
+    "text": "As a Full Stack Developer, I specialize in React and Node. I'm passionate about teaching tech on my blog and learning new things, such as the Japanese language.",
+    "place": "Tokyo"
   },
   "skills": {
     "currentStack": [
@@ -310,6 +310,6 @@
     { "name": "linkedin", "link": "https://www.linkedin.com/in/dastasoft/" },
     { "name": "github", "link": "https://github.com/dastasoft" },
     { "name": "twitter", "link": "https://twitter.com/dastasoft" },
-    { "name": "dev", "link": "https://dev.to/dastasoft" }
+    { "name": "instagram", "link": "https://www.instagram.com/_dastasoft_/" }
   ]
 }
