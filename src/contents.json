@@ -2,51 +2,140 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "As a Full Stack Developer, I specialize in React and Node. I'm passionate about teaching tech on my blog and learning new things, such as the Japanese language.",
+    "text": "Full Stack Developer passionate about React, Node, and learning Japanese in Tokyo 🚀🇯🇵 Tech blogger.",
     "place": "Tokyo"
   },
   "skills": {
     "currentStack": [
-      { "name": "react", "caption": "React" },
-      { "name": "nodejs", "caption": "Node" },
-      { "name": "mongodb", "caption": "MongoDB" },
-      { "name": "typescript", "caption": "TypeScript" }
+      {
+        "name": "react",
+        "caption": "React"
+      },
+      {
+        "name": "nodejs",
+        "caption": "Node"
+      },
+      {
+        "name": "mongodb",
+        "caption": "MongoDB"
+      },
+      {
+        "name": "typescript",
+        "caption": "TypeScript"
+      }
     ],
     "other": [
-      { "name": "html", "caption": "HTML5" },
-      { "name": "css", "caption": "CSS3" },
-      { "name": "javascript", "caption": "JavaScript" },
-      { "name": "react-native", "caption": "R.Native" },
-      { "name": "nextjs", "caption": "Next.js" },
-      { "name": "redux", "caption": "Redux" },
-      { "name": "jest", "caption": "Jest" },
-      { "name": "sass", "caption": "SASS" },
-      { "name": "styled-components", "caption": "styled" },
-      { "name": "tailwindcss", "caption": "TailwindCSS" },
-      { "name": "sql", "caption": "SQL" },
-      { "name": "java", "caption": "Java" },
-      { "name": "php", "caption": "PHP" },
-      { "name": "wordpress", "caption": "Wordpress" },
-      { "name": "firebase", "caption": "Firebase" }
+      {
+        "name": "html",
+        "caption": "HTML5"
+      },
+      {
+        "name": "css",
+        "caption": "CSS3"
+      },
+      {
+        "name": "javascript",
+        "caption": "JavaScript"
+      },
+      {
+        "name": "react-native",
+        "caption": "R.Native"
+      },
+      {
+        "name": "nextjs",
+        "caption": "Next.js"
+      },
+      {
+        "name": "redux",
+        "caption": "Redux"
+      },
+      {
+        "name": "jest",
+        "caption": "Jest"
+      },
+      {
+        "name": "sass",
+        "caption": "SASS"
+      },
+      {
+        "name": "styled-components",
+        "caption": "styled"
+      },
+      {
+        "name": "tailwindcss",
+        "caption": "TailwindCSS"
+      },
+      {
+        "name": "sql",
+        "caption": "SQL"
+      },
+      {
+        "name": "java",
+        "caption": "Java"
+      },
+      {
+        "name": "php",
+        "caption": "PHP"
+      },
+      {
+        "name": "wordpress",
+        "caption": "Wordpress"
+      },
+      {
+        "name": "firebase",
+        "caption": "Firebase"
+      }
     ],
     "tools": [
-      { "name": "docker", "caption": "Docker" },
-      { "name": "electron", "caption": "Electron" },
-      { "name": "figma", "caption": "Figma" },
-      { "name": "i18n", "caption": "I18N" },
-      { "name": "aws", "caption": "AWS" }
+      {
+        "name": "docker",
+        "caption": "Docker"
+      },
+      {
+        "name": "electron",
+        "caption": "Electron"
+      },
+      {
+        "name": "figma",
+        "caption": "Figma"
+      },
+      {
+        "name": "i18n",
+        "caption": "I18N"
+      },
+      {
+        "name": "aws",
+        "caption": "AWS"
+      }
     ],
     "learning": [
-      { "name": "cypress", "caption": "Cypress" },
-      { "name": "graphql", "caption": "GraphQL" },
-      { "name": "redis", "caption": "Redis" },
-      { "name": "godot", "caption": "Godot" }
+      {
+        "name": "cypress",
+        "caption": "Cypress"
+      },
+      {
+        "name": "graphql",
+        "caption": "GraphQL"
+      },
+      {
+        "name": "redis",
+        "caption": "Redis"
+      },
+      {
+        "name": "godot",
+        "caption": "Godot"
+      }
     ]
   },
   "highlightProject": {
     "title": "Grow Meeting",
     "description": "Jitsi video chat integration with Websockets to provide real time interactions.",
-    "techList": ["react", "netlify", "styled-components", "react-native"],
+    "techList": [
+      "react",
+      "netlify",
+      "styled-components",
+      "react-native"
+    ],
     "longDescription": [
       "ReactJS",
       "Styled Components",
@@ -62,7 +151,12 @@
       "id": "kanaTrainer",
       "title": "Kana Trainer",
       "description": "Start your Japanese learning journey and learn two syllabaries at once. Practice with a flashcard quiz to train every recognition method.",
-      "techList": ["react", "typescript", "nextjs", "tailwindcss"],
+      "techList": [
+        "react",
+        "typescript",
+        "nextjs",
+        "tailwindcss"
+      ],
       "projectLink": "https://kana-trainer.dastasoft.com/",
       "sourceLink": "https://github.com/dastasoft/kana-trainer"
     },
@@ -70,7 +164,12 @@
       "id": "apartmentfy",
       "title": "Apartmentfy",
       "description": "This proof of concept is made with Next.js, MongoDB Atlas and Chakra UI. Enjoy the power of Static Site CDN and Serverless DB.",
-      "techList": ["react", "nextjs", "mongodb", "aws"],
+      "techList": [
+        "react",
+        "nextjs",
+        "mongodb",
+        "aws"
+      ],
       "projectLink": "https://apartmentfy.dastasoft.com/",
       "secondaryLink": "https://apartmentfy.vercel.app/",
       "sourceLink": "https://github.com/dastasoft/airbnb-nextjs-mongodb"
@@ -93,7 +192,11 @@
       "id": "blog",
       "title": "My blog about tech",
       "description": "Personal Blog made with Next.js, supports Dark Mode, optimistic UI, SEO friendly and more.",
-      "techList": ["react", "nextjs", "styled-components"],
+      "techList": [
+        "react",
+        "nextjs",
+        "styled-components"
+      ],
       "projectLink": "https://blog.dastasoft.com/",
       "secondaryLink": "https://blog-dastasoft.vercel.app",
       "sourceLink": "https://github.com/dastasoft/blog"
@@ -102,7 +205,12 @@
       "id": "congressCrush",
       "title": "Congress Crush",
       "description": "Match 3 game about political elections in Spain made with Godot for Android and Web.",
-      "techList": ["godot", "android", "react", "css"],
+      "techList": [
+        "godot",
+        "android",
+        "react",
+        "css"
+      ],
       "projectLink": "http://congress-crush.dastasoft.com/",
       "sourceLink": "https://github.com/The-Four-Lords/CongressCrush"
     },
@@ -110,14 +218,24 @@
       "id": "copywriting",
       "title": "Copywriting",
       "description": "Blazing fast landing page built with Next.js and multilanguage support to advertise copywriting services.",
-      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
+      "techList": [
+        "react",
+        "nextjs",
+        "styled-components",
+        "tailwindcss"
+      ],
       "projectLink": "https://copywriting.nimbel.net"
     },
     {
       "id": "animeTrailers",
       "title": "Anime Trailers",
       "description": "AnimeTrailers let's you to browse, find favorite and check where to watch anime shows. Fictional product as example project to teach TypeScript in React.",
-      "techList": ["react", "nextjs", "styled-components", "typescript"],
+      "techList": [
+        "react",
+        "nextjs",
+        "styled-components",
+        "typescript"
+      ],
       "projectLink": "https://animetrailers.dastasoft.com/",
       "sourceLink": "https://github.com/dastasoft/animetrailers"
     },
@@ -125,7 +243,12 @@
       "id": "nimbel",
       "title": "Nimbel",
       "description": "Portfolio and Blog for the startup Nimbel Software, made with Next.js following jamstack architecture.",
-      "techList": ["react", "nextjs", "styled-components", "tailwindcss"],
+      "techList": [
+        "react",
+        "nextjs",
+        "styled-components",
+        "tailwindcss"
+      ],
       "projectLink": "https://nimbel.net",
       "sourceLink": "https://github.com/nimbel-code/portfolio"
     },
@@ -133,7 +256,13 @@
       "id": "pokemonTCGShop",
       "title": "Pokemon TCG Shop",
       "description": "Web app to check and search Pokemon Trading Card Game card prices, proof of concept made to teach Redux Toolkit.",
-      "techList": ["react", "nextjs", "typescript", "redux", "css"],
+      "techList": [
+        "react",
+        "nextjs",
+        "typescript",
+        "redux",
+        "css"
+      ],
       "projectLink": "https://redux-pokemon-tcg-shop.dastasoft.com/",
       "sourceLink": "https://github.com/dastasoft/redux-pokemon-tcg-shop"
     },
@@ -141,7 +270,11 @@
       "id": "handyTools",
       "title": "Handy Tools",
       "description": "A collection of web tools to make your life easier. PWA made with Next.js and Chakra UI. Made to teach Chakra UI.",
-      "techList": ["react", "nextjs", "css"],
+      "techList": [
+        "react",
+        "nextjs",
+        "css"
+      ],
       "projectLink": "https://handy-tools.dastasoft.com/",
       "secondaryLink": "https://handy-tools.vercel.app",
       "sourceLink": "https://github.com/dastasoft/handy-tools"
@@ -150,7 +283,12 @@
       "id": "portfolio",
       "title": "This Portfolio",
       "description": "Personal Portfolio made with React and responsive design with CSS.",
-      "techList": ["react", "parcel", "styled-components", "netlify"],
+      "techList": [
+        "react",
+        "parcel",
+        "styled-components",
+        "netlify"
+      ],
       "projectLink": "https://dastasoft.com/",
       "secondaryLink": "https://dastasoft.vercel.app",
       "sourceLink": "https://github.com/dastasoft/dastasoft-portfolio"
@@ -159,7 +297,12 @@
       "id": "rankup",
       "title": "Rank ^ Up",
       "description": "Spanish community of Dota 2 with news, tutorials, gameplays and live broadcast.",
-      "techList": ["wordpress", "php", "html", "css"],
+      "techList": [
+        "wordpress",
+        "php",
+        "html",
+        "css"
+      ],
       "projectLink": "https://web.archive.org/web/20150114065601/http://rankup.es/"
     }
   ],
@@ -171,7 +314,8 @@
       "companyURL": "https://edpuzzle.com/",
       "contractType": "Full Time",
       "contractDate": {
-        "start": "2021-09-13"
+        "start": "2021-09-13",
+        "end": "2023-03-31"
       },
       "shortDescription": "Project management, team coordination and implementation of new features in front end, back end and mobile.",
       "items": [
@@ -307,9 +451,17 @@
       "link": "mailto:dastasoft@protonmail.com",
       "custom": "envelope"
     },
-    { "name": "linkedin", "link": "https://www.linkedin.com/in/dastasoft/" },
-    { "name": "github", "link": "https://github.com/dastasoft" },
-    { "name": "twitter", "link": "https://twitter.com/dastasoft" },
-    { "name": "instagram", "link": "https://www.instagram.com/_dastasoft_/" }
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/dastasoft/"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/dastasoft"
+    },
+    {
+      "name": "twitter",
+      "link": "https://twitter.com/dastasoft"
+    }
   ]
 }
