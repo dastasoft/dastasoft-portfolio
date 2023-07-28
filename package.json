@@ -1,6 +1,9 @@
 {
   "name": "dastasoft-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "main": "src/index.js",
   "license": "MIT",
   "author": "dastasoft <dastasoft@protonmail.com> (https://dastasoft.com)",
