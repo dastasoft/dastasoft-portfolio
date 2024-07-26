@@ -28,7 +28,6 @@ const Home = () => {
         className="wow animate__animated animate__fadeIn"
       />
       <Bio className="wow animate__animated animate__fadeIn" />
-      <Skills {...skills} className="wow animate__animated animate__fadeIn" />
       <HighlightProject
         className="wow animate__animated animate__fadeIn"
         {...highlightProject}
