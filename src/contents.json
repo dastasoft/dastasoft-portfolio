@@ -2,7 +2,7 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Full Stack Developer passionate about React, Node, and learning Japanese in Tokyo 🚀🇯🇵 Tech blogger.",
+    "text": "Senior Software Engineer passionate about React, Node, TypeScript and learning Japanese in Tokyo 🚀🇯🇵 Tech blogger.",
     "place": "Tokyo"
   },
   "skills": {
@@ -345,7 +345,7 @@
     },
     {
       "id": "ancert",
-      "position": "Full Stack Developer",
+      "position": "Software Engineer",
       "companyName": "Ancert",
       "companyURL": "https://www.ancert.com",
       "contractType": "Full Time",
@@ -382,7 +382,7 @@
     },
     {
       "id": "gft",
-      "position": "Full Stack Developer",
+      "position": "Software Engineer",
       "companyName": "GFT Group",
       "companyURL": "https://www.gft.com/",
       "contractType": "Full Time",
@@ -416,7 +416,7 @@
     },
     {
       "id": "sigma",
-      "position": "Java Developer",
+      "position": "Software Engineer",
       "companyName": "Sigma AIE",
       "companyURL": "https://www.sigmaaie.org",
       "contractType": "Full Time",
