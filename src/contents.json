@@ -2,8 +2,8 @@
   "introduction": {
     "name": "Daniel Asta",
     "nick": "アスタダニエル",
-    "text": "Senior Software Engineer passionate about React, Node, TypeScript and learning Japanese in Tokyo 🚀🇯🇵 Tech blogger.",
-    "place": "Tokyo"
+    "text": "Senior Software Engineer passionate about React, Node, TypeScript and learning Japanese.",
+    "place": "Japan"
   },
   "skills": {
     "currentStack": [
