@@ -12,7 +12,6 @@ import content from '../../contents.json';
 const Home = () => {
   const {
     introduction,
-    skills,
     highlightProject,
     projects,
     social,
